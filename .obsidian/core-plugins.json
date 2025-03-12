@@ -2,7 +2,7 @@
   "file-explorer": true,
   "global-search": true,
   "switcher": true,
-  "graph": false,
+  "graph": true,
   "backlink": true,
   "canvas": true,
   "outgoing-link": true,
@@ -16,7 +16,7 @@
   "slash-command": false,
   "editor-status": true,
   "bookmarks": true,
-  "markdown-importer": true,
+  "markdown-importer": false,
   "zk-prefixer": false,
   "random-note": false,
   "outline": true,
@@ -26,6 +26,5 @@
   "workspaces": false,
   "file-recovery": true,
   "publish": false,
-  "sync": true,
-  "webviewer": false
+  "sync": true
 }
