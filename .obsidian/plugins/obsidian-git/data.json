@@ -9,7 +9,7 @@
   "pullBeforePush": true,
   "disablePopups": true,
   "disablePopupsForNoChanges": false,
-  "listChangedFilesInMessageBody": true,
+  "listChangedFilesInMessageBody": false,
   "showStatusBar": true,
   "updateSubmodules": false,
   "syncMethod": "merge",

@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2eb1e0ccc219c10d",
+        "id": "41cef26e5468ad7f",
         "type": "tabs",
         "children": [
           {
-            "id": "c3462de231a077e6",
+            "id": "bb82fe03227766ba",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "machine learning/智能机器人/Drawing 2025-03-14 05.40.53.excalidraw.md"
+                "file": "machine learning/智能机器人技术.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-03-14 05.40.53.excalidraw"
+              "icon": "lucide-file",
+              "title": "智能机器人技术"
             }
           }
         ]
@@ -159,17 +161,12 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "obsidian-git:Open Git source control": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c3462de231a077e6",
+  "active": "bb82fe03227766ba",
   "lastOpenFiles": [
-    "machine learning/智能机器人/Drawing 2025-03-14 05.40.53.excalidraw.md",
-    "machine learning/智能机器人技术.md",
-    "未命名.md",
-    "Excalidraw/Drawing 2025-03-14 05.40.12.excalidraw.md",
-    "Excalidraw",
-    "test/2025-03-12.md"
+    "test/2025-03-12.md",
+    "machine learning/智能机器人技术.md"
   ]
 }
