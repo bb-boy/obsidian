@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "41cef26e5468ad7f",
+        "id": "2176aa74ba89209e",
         "type": "tabs",
         "children": [
           {
-            "id": "bb82fe03227766ba",
+            "id": "b2b50d7c97e12e6d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "machine learning/智能机器人技术.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "智能机器人技术"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
             }
           }
         ]
@@ -164,9 +160,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bb82fe03227766ba",
+  "active": "b2b50d7c97e12e6d",
   "lastOpenFiles": [
-    "test/2025-03-12.md",
-    "machine learning/智能机器人技术.md"
+    "machine learning/智能机器人技术.md",
+    "test/2025-03-12.md"
   ]
 }
