@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "25d4a044c6a6f0c4",
@@ -167,8 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,8 +181,10 @@
   },
   "active": "5faf1080ea592755",
   "lastOpenFiles": [
-    "智能机器人技术.md",
+    "图片URL.md",
     "智能机器人.md",
+    "智能机器人/图片/Pasted image 20250315151038.png",
+    "智能机器人技术.md",
     "智能机器人/图片/Pasted image 20250312151948.png",
     "2025-03-12.md",
     "智能机器人/图片/Pasted image 20250312151714.png",
