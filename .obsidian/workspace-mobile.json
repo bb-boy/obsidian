@@ -11,10 +11,14 @@
             "id": "bb82fe03227766ba",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "machine learning/智能机器人.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "智能机器人"
             }
           }
         ]
