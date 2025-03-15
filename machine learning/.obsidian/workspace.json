@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "智能机器人技术.md",
+                "file": "智能机器人.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "智能机器人技术"
+              "title": "智能机器人"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "25d4a044c6a6f0c4",
@@ -166,7 +166,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -179,11 +180,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3aaf6528f2a4f4e4",
+  "active": "5faf1080ea592755",
   "lastOpenFiles": [
+    "智能机器人技术.md",
+    "智能机器人.md",
     "智能机器人/图片/Pasted image 20250312151948.png",
     "2025-03-12.md",
-    "智能机器人技术.md",
     "智能机器人/图片/Pasted image 20250312151714.png",
     "智能机器人/图片",
     "智能机器人",
