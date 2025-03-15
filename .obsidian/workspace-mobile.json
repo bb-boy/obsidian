@@ -11,14 +11,10 @@
             "id": "bb82fe03227766ba",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "machine learning/智能机器人技术.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "智能机器人技术"
+              "title": "新标签页"
             }
           }
         ]
@@ -166,7 +162,18 @@
   },
   "active": "bb82fe03227766ba",
   "lastOpenFiles": [
-    "test/2025-03-12.md",
-    "machine learning/智能机器人技术.md"
+    "machine learning/智能机器人技术.md",
+    "machine learning/智能机器人.md",
+    "test/未命名.md",
+    "test",
+    "/test/未命名.md",
+    "/machine learning/智能机器人.md",
+    "/machine learning/智能机器人/图片/Pasted image 20250315151038.png",
+    "machine learning/智能机器人/图片/Pasted image 20250315151038.png",
+    "/machine learning/智能机器人/图片",
+    "/machine learning/智能机器人",
+    "/test",
+    "/machine learning",
+    "test/2025-03-12.md"
   ]
 }
