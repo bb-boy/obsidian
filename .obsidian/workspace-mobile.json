@@ -14,8 +14,8 @@
               "type": "markdown",
               "state": {
                 "file": "machine learning/智能机器人.md",
-                "mode": "preview",
-                "source": true
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
               "title": "智能机器人"
@@ -166,14 +166,16 @@
   },
   "active": "bb82fe03227766ba",
   "lastOpenFiles": [
-    "machine learning/智能机器人技术.md",
+    "machine learning/智能机器人/图片/Pasted image 20250315151038.png",
+    "machine learning/智能机器人/图片/Pasted image 20250312151714.png",
+    "machine learning/智能机器人/图片/Pasted image 20250312151948.png",
     "machine learning/智能机器人.md",
+    "machine learning/智能机器人技术.md",
     "test/未命名.md",
     "test",
     "/test/未命名.md",
     "/machine learning/智能机器人.md",
     "/machine learning/智能机器人/图片/Pasted image 20250315151038.png",
-    "machine learning/智能机器人/图片/Pasted image 20250315151038.png",
     "/machine learning/智能机器人/图片",
     "/machine learning/智能机器人",
     "/test",
