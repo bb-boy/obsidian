@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "25d4a044c6a6f0c4",
@@ -167,8 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,15 +181,15 @@
   },
   "active": "5faf1080ea592755",
   "lastOpenFiles": [
-    "Pasted image 20250317102641.png",
-    "Pasted image 20250317102423.png",
-    "Pasted image 20250317102315.png",
-    "Pasted image 20250317101116.png",
-    "Pasted image 20250317093747.png",
-    "Pasted image 20250317084536.png",
-    "Pasted image 20250317064108.png",
-    "图片URL.md",
+    "智能机器人/图片/Pasted image 20250317064108.png",
     "智能机器人.md",
+    "智能机器人/图片/Pasted image 20250317102641.png",
+    "智能机器人/图片/Pasted image 20250317102423.png",
+    "智能机器人/图片/Pasted image 20250317102315.png",
+    "智能机器人/图片/Pasted image 20250317101116.png",
+    "智能机器人/图片/Pasted image 20250317093747.png",
+    "智能机器人/图片/Pasted image 20250317084536.png",
+    "图片URL.md",
     "智能机器人/图片/Pasted image 20250315151038.png",
     "智能机器人技术.md",
     "智能机器人/图片/Pasted image 20250312151948.png",
