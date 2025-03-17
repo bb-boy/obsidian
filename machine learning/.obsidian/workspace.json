@@ -148,12 +148,11 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -166,7 +165,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8725c0d816810d75",
+  "active": "64eb5020b63ca271",
   "lastOpenFiles": [
     "image.png",
     "智能机器人.md",
