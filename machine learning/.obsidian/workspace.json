@@ -138,21 +138,6 @@
             }
           },
           {
-            "id": "65280aa386010f48",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "智能机器人.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "智能机器人 的大纲"
-            }
-          },
-          {
             "id": "64eb5020b63ca271",
             "type": "leaf",
             "state": {
@@ -163,7 +148,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -183,8 +168,9 @@
   },
   "active": "8725c0d816810d75",
   "lastOpenFiles": [
-    "智能机器人/图片/image.png",
+    "image.png",
     "智能机器人.md",
+    "智能机器人/图片/image.png",
     "智能机器人/图片/image-6.png",
     "智能机器人/图片/image-5.png",
     "智能机器人/图片/image-3.png",
@@ -193,7 +179,6 @@
     "智能机器人/图片/image-4.png",
     "智能机器人/图片/Pasted image 20250315151038.png",
     "智能机器人/图片/Pasted image 20250312151948.png",
-    "智能机器人/图片/Pasted image 20250312151714.png",
     "图片URL.md",
     "智能机器人技术.md",
     "2025-03-12.md",
