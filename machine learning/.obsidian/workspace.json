@@ -11,6 +11,18 @@
             "id": "8725c0d816810d75",
             "type": "leaf",
             "state": {
+              "type": "pdf",
+              "state": {
+                "file": "机器人学导论.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "机器人学导论"
+            }
+          },
+          {
+            "id": "fad8c0723c33e79f",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
                 "file": "智能机器人.md",
@@ -78,8 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "25d4a044c6a6f0c4",
@@ -153,13 +164,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "智能机器人.md",
+                "file": "机器人学导论.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "智能机器人 的大纲"
+              "title": "机器人学导论 的大纲"
             }
           }
         ],
@@ -183,8 +194,9 @@
   },
   "active": "8725c0d816810d75",
   "lastOpenFiles": [
-    "image.png",
     "智能机器人.md",
+    "机器人学导论.pdf",
+    "image.png",
     "智能机器人/图片/image.png",
     "智能机器人/图片/image-6.png",
     "智能机器人/图片/image-5.png",
