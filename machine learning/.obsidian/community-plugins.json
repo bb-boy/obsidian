@@ -1,5 +1,8 @@
 [
   "obsidian-git",
   "obsidian-hover-editor",
-  "image-converter"
+  "image-converter",
+  "omnisearch",
+  "text-extractor",
+  "ai-image-analyzer"
 ]
