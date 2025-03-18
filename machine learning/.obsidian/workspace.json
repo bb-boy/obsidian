@@ -146,13 +146,29 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "d0ce36cd8909e6ef",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "智能机器人.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "智能机器人 的大纲"
+            }
           }
         ],
         "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -165,7 +181,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "64eb5020b63ca271",
+  "active": "8725c0d816810d75",
   "lastOpenFiles": [
     "image.png",
     "智能机器人.md",
