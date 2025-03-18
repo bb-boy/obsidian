@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "94d69b0ac6a68929",
+        "id": "3edcf5f36d2c0184",
         "type": "tabs",
         "children": [
           {
-            "id": "fad8c0723c33e79f",
+            "id": "b1442b8bb6f9ee83",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -179,10 +179,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "fad8c0723c33e79f",
+  "active": "b1442b8bb6f9ee83",
   "lastOpenFiles": [
-    "智能机器人.md",
+    "机器人学导论.md",
     "机器人学导论.pdf",
+    "智能机器人.md",
     "image.png",
     "智能机器人/图片/image.png",
     "智能机器人/图片/image-6.png",
