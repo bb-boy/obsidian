@@ -1,6 +1,4 @@
 {
-  "ocrLanguages": [
-    "eng"
-  ],
+  "ocrLanguages": [],
   "rightClickMenu": true
 }
