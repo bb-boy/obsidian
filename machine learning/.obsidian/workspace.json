@@ -11,12 +11,14 @@
             "id": "b1442b8bb6f9ee83",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "机器人学导论.pdf"
+                "file": "智能机器人.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "机器人学导论"
+              "icon": "lucide-file",
+              "title": "智能机器人"
             }
           }
         ]
@@ -181,17 +183,17 @@
   },
   "active": "b1442b8bb6f9ee83",
   "lastOpenFiles": [
-    "机器人学导论.md",
+    "智能机器人/图片/image-2.png",
+    "智能机器人/图片/image-3.png",
+    "智能机器人/图片/image-4.png",
+    "智能机器人/图片/image-5.png",
+    "智能机器人/图片/image-6.png",
+    "智能机器人/图片/image-1.png",
+    "智能机器人/图片/image.png",
     "机器人学导论.pdf",
+    "机器人学导论.md",
     "智能机器人.md",
     "image.png",
-    "智能机器人/图片/image.png",
-    "智能机器人/图片/image-6.png",
-    "智能机器人/图片/image-5.png",
-    "智能机器人/图片/image-3.png",
-    "智能机器人/图片/image-2.png",
-    "智能机器人/图片/image-1.png",
-    "智能机器人/图片/image-4.png",
     "智能机器人/图片/Pasted image 20250315151038.png",
     "智能机器人/图片/Pasted image 20250312151948.png",
     "图片URL.md",
