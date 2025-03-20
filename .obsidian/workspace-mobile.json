@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "41cef26e5468ad7f",
+        "id": "2eb1e0ccc219c10d",
         "type": "tabs",
         "children": [
           {
-            "id": "bb82fe03227766ba",
+            "id": "c3462de231a077e6",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -164,29 +164,25 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bb82fe03227766ba",
+  "active": "c3462de231a077e6",
   "lastOpenFiles": [
-    "machine learning/智能机器人/图片/image.png",
-    "machine learning/智能机器人/图片/image-6.png",
-    "machine learning/智能机器人/图片/image-2.png",
-    "machine learning/智能机器人/图片/image-5.png",
-    "machine learning/智能机器人/图片/image-4.png",
-    "machine learning/智能机器人/图片/image-3.png",
-    "/machine learning/智能机器人.md",
-    "/machine learning/智能机器人/图片/image.png",
-    "/machine learning/智能机器人/图片/image-6.png",
-    "/machine learning/智能机器人/图片/image-5.png",
-    "/machine learning/智能机器人/图片/image-4.png",
-    "/machine learning/智能机器人/图片/image-3.png",
-    "/machine learning/智能机器人/图片",
-    "/machine learning/智能机器人",
-    "/machine learning",
-    "machine learning/智能机器人.md",
-    "machine learning/智能机器人技术.md",
+    "machine learning/智能机器人/Drawing 2025-03-14 05.40.53.excalidraw.md",
     "test/未命名.md",
     "test",
+    "machine learning/智能机器人.md",
     "/test/未命名.md",
+    "/machine learning/智能机器人.md",
+    "/machine learning/智能机器人/图片/Pasted image 20250315151038.png",
+    "machine learning/智能机器人/图片/Pasted image 20250315151038.png",
+    "/machine learning/智能机器人/图片",
     "/test",
+    "/machine learning/智能机器人",
+    "/machine learning",
+    "/Excalidraw",
+    "machine learning/智能机器人技术.md",
+    "未命名.md",
+    "Excalidraw/Drawing 2025-03-14 05.40.12.excalidraw.md",
+    "Excalidraw",
     "test/2025-03-12.md"
   ]
 }

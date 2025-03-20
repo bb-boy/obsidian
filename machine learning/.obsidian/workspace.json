@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "94d69b0ac6a68929",
+        "id": "2d6bd4f4bc1d5fbf",
         "type": "tabs",
         "children": [
           {
-            "id": "fad8c0723c33e79f",
+            "id": "5faf1080ea592755",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "机器人学导论.pdf"
+                "file": "智能机器人.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "机器人学导论"
+              "icon": "lucide-file",
+              "title": "智能机器人"
             }
           }
         ]
@@ -76,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "25d4a044c6a6f0c4",
@@ -92,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "智能机器人.md",
+                "file": "咖喱鸡.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "智能机器人 的反向链接列表"
+              "title": "咖喱鸡 的反向链接列表"
             }
           },
           {
@@ -111,12 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "智能机器人.md",
+                "file": "咖喱鸡.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "智能机器人 的出链列表"
+              "title": "咖喱鸡 的出链列表"
             }
           },
           {
@@ -126,12 +129,27 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": false,
+                "useHierarchy": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "标签"
+            }
+          },
+          {
+            "id": "65280aa386010f48",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "咖喱鸡.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "咖喱鸡 的大纲"
             }
           },
           {
@@ -143,24 +161,9 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
-          },
-          {
-            "id": "d0ce36cd8909e6ef",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "机器人学导论.pdf",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "机器人学导论 的大纲"
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -175,27 +178,18 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "obsidian-git:Open Git source control": false,
-      "omnisearch:Omnisearch": false
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fad8c0723c33e79f",
+  "active": "5faf1080ea592755",
   "lastOpenFiles": [
-    "智能机器人.md",
-    "机器人学导论.pdf",
-    "image.png",
-    "智能机器人/图片/image.png",
-    "智能机器人/图片/image-6.png",
-    "智能机器人/图片/image-5.png",
-    "智能机器人/图片/image-3.png",
-    "智能机器人/图片/image-2.png",
-    "智能机器人/图片/image-1.png",
-    "智能机器人/图片/image-4.png",
-    "智能机器人/图片/Pasted image 20250315151038.png",
-    "智能机器人/图片/Pasted image 20250312151948.png",
     "图片URL.md",
+    "智能机器人.md",
+    "智能机器人/图片/Pasted image 20250315151038.png",
     "智能机器人技术.md",
+    "智能机器人/图片/Pasted image 20250312151948.png",
     "2025-03-12.md",
+    "智能机器人/图片/Pasted image 20250312151714.png",
     "智能机器人/图片",
     "智能机器人",
     "欢迎.md",
