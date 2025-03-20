@@ -37,7 +37,7 @@
           "type": "file-explorer",
           "state": {
             "sortOrder": "alphabetical",
-            "autoReveal": false
+            "autoReveal": true
           },
           "icon": "lucide-folder-closed",
           "title": "文件列表"
@@ -165,16 +165,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "68d7230cd6666d35",
+  "active": "5bd103ddf71599b5",
   "lastOpenFiles": [
-    "2025-03-20.md",
-    "machine learning/智能机器人.md",
     "未命名.md",
+    "machine learning/智能机器人.md",
+    "未命名/未命名 1",
+    "2025-03-20.md",
     "未命名",
     "test/未命名.md",
     "machine learning/智能机器人/图片/Pasted image 20250312151714.png",
     "machine learning/智能机器人/Drawing 2025-03-14 05.40.53.excalidraw.md",
-    "test",
+    "未命名/test",
     "/test/未命名.md",
     "/machine learning/智能机器人.md",
     "/machine learning/智能机器人/图片/Pasted image 20250315151038.png",
