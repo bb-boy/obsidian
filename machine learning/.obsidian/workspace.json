@@ -25,20 +25,6 @@
             "id": "34e39ae65f7835a1",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "machine learning/Q24301210_庞磊.md",
-                "bFile": "machine learning/Q24301210_庞磊.md",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: Q24301210_庞磊"
-            }
-          },
-          {
-            "id": "2518c6c5bc6bef59",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
                 "file": "智能机器人.md",
@@ -50,7 +36,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -208,21 +194,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2518c6c5bc6bef59",
+  "active": "34e39ae65f7835a1",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "pic_智能机器人/image.png",
+    "pic_智能机器人/image-1.png",
     "智能机器人.md",
+    "pic_智能机器人",
+    "pic_智能机器人/image-6.png",
+    "pic_智能机器人/image-5.png",
+    "pic_智能机器人/image-4.png",
+    "pic_智能机器人/image-3.png",
+    "pic_智能机器人/image-2.png",
+    "pic_智能机器人/Pasted image 20250317102641.png",
+    "pic_智能机器人/Pasted image 20250317102423.png",
+    "pic_智能机器人/Pasted image 20250317102315.png",
+    "conflict-files-obsidian-git.md",
     "Q24301210_庞磊.md",
-    "智能机器人/图片/Pasted image 20250317102641.png",
-    "智能机器人/图片/Pasted image 20250317102423.png",
-    "智能机器人/图片/Pasted image 20250317102315.png",
-    "智能机器人/图片/Pasted image 20250317101116.png",
-    "智能机器人/图片/Pasted image 20250317093747.png",
-    "智能机器人/图片/Pasted image 20250317084536.png",
-    "智能机器人/图片/Pasted image 20250317064108.png",
-    "智能机器人/图片/Pasted image 20250315151038.png",
-    "智能机器人/图片/Pasted image 20250312151948.png",
-    "智能机器人/图片/Pasted image 20250312151714.png",
     "机器人学导论.pdf",
     "机器人学导论.md",
     "图片URL.md",
