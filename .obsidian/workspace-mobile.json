@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "41cef26e5468ad7f",
+        "id": "e8cae7b34c43c43d",
         "type": "tabs",
         "children": [
           {
-            "id": "bb82fe03227766ba",
+            "id": "68d7230cd6666d35",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -37,7 +37,7 @@
           "type": "file-explorer",
           "state": {
             "sortOrder": "alphabetical",
-            "autoReveal": false
+            "autoReveal": true
           },
           "icon": "lucide-folder-closed",
           "title": "文件列表"
@@ -86,7 +86,8 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 0,
+    "pinned": true
   },
   "right": {
     "id": "f3c14746b9cfdb84",
@@ -164,29 +165,29 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bb82fe03227766ba",
+  "active": "5bd103ddf71599b5",
   "lastOpenFiles": [
-    "machine learning/智能机器人/图片/image.png",
-    "machine learning/智能机器人/图片/image-6.png",
-    "machine learning/智能机器人/图片/image-2.png",
-    "machine learning/智能机器人/图片/image-5.png",
-    "machine learning/智能机器人/图片/image-4.png",
-    "machine learning/智能机器人/图片/image-3.png",
+    "未命名.md",
+    "machine learning/智能机器人.md",
+    "未命名/未命名 1",
+    "2025-03-20.md",
+    "未命名",
+    "test/未命名.md",
+    "machine learning/智能机器人/图片/Pasted image 20250312151714.png",
+    "machine learning/智能机器人/Drawing 2025-03-14 05.40.53.excalidraw.md",
+    "未命名/test",
+    "/test/未命名.md",
     "/machine learning/智能机器人.md",
-    "/machine learning/智能机器人/图片/image.png",
-    "/machine learning/智能机器人/图片/image-6.png",
-    "/machine learning/智能机器人/图片/image-5.png",
-    "/machine learning/智能机器人/图片/image-4.png",
-    "/machine learning/智能机器人/图片/image-3.png",
+    "/machine learning/智能机器人/图片/Pasted image 20250315151038.png",
+    "machine learning/智能机器人/图片/Pasted image 20250315151038.png",
     "/machine learning/智能机器人/图片",
+    "/test",
     "/machine learning/智能机器人",
     "/machine learning",
-    "machine learning/智能机器人.md",
+    "/Excalidraw",
     "machine learning/智能机器人技术.md",
-    "test/未命名.md",
-    "test",
-    "/test/未命名.md",
-    "/test",
+    "Excalidraw/Drawing 2025-03-14 05.40.12.excalidraw.md",
+    "Excalidraw",
     "test/2025-03-12.md"
   ]
 }
