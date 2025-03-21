@@ -1,0 +1,10 @@
+{
+  "text-extractor:extract-to-clipboard": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "A"
+    }
+  ]
+}

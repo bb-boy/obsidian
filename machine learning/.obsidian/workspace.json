@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "3edcf5f36d2c0184",
+        "id": "f6a8d9ca12d163fc",
         "type": "tabs",
         "children": [
           {
-            "id": "b1442b8bb6f9ee83",
+            "id": "39301bd57989cbce",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "智能机器人.md",
+                "file": "智能机器人/智能机器人.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "智能机器人"
             }
-          },
-          {
-            "id": "34e39ae65f7835a1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "智能机器人.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "智能机器人"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -191,26 +176,34 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "34e39ae65f7835a1",
+  "active": "39301bd57989cbce",
   "lastOpenFiles": [
-    "pic_智能机器人/image.png",
-    "pic_智能机器人/image-1.png",
-    "智能机器人.md",
-    "pic_智能机器人",
-    "pic_智能机器人/image-6.png",
-    "pic_智能机器人/image-5.png",
-    "pic_智能机器人/image-4.png",
-    "pic_智能机器人/image-3.png",
-    "pic_智能机器人/image-2.png",
-    "pic_智能机器人/Pasted image 20250317102641.png",
-    "pic_智能机器人/Pasted image 20250317102423.png",
-    "pic_智能机器人/Pasted image 20250317102315.png",
+    "智能机器人/pic_智能机器人/Pasted image 20250312151948.png",
+    "智能机器人/pic_智能机器人/Pasted image 20250317064108.png",
+    "智能机器人/pic_智能机器人/Pasted image 20250317093747.png",
+    "智能机器人/pic_智能机器人/Pasted image 20250317102315.png",
+    "智能机器人/pic_智能机器人/Pasted image 20250317102423.png",
+    "智能机器人/pic_智能机器人/Pasted image 20250317102641.png",
+    "Pasted image 20250321160642.png",
+    "Pasted image 20250321155758.png",
+    "Pasted image 20250321155655.png",
+    "智能机器人/智能机器人.md",
+    "智能机器人/pic_智能机器人/image-6.png",
+    "智能机器人/pic_智能机器人/image-5.png",
+    "智能机器人/机器人学导论.pdf",
+    "未命名.md",
+    "未命名 1.md",
+    "智能机器人",
+    "智能机器人/pic_智能机器人",
     "conflict-files-obsidian-git.md",
     "Q24301210_庞磊.md",
-    "机器人学导论.pdf",
     "机器人学导论.md",
     "图片URL.md",
     "智能机器人技术.md",
