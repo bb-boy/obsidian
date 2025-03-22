@@ -1,0 +1,6 @@
+.markdown-preview-view blockquote {
+  border-left: 4px solid #4caf50; /* 绿色引用线 */
+  background-color: #f9f9f9;
+  padding-left: 10px;
+  color: #333;
+}
