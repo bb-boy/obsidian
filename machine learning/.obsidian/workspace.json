@@ -6,9 +6,33 @@
       {
         "id": "f6a8d9ca12d163fc",
         "type": "tabs",
+        "dimension": 27.027027027027028,
         "children": [
           {
             "id": "39301bd57989cbce",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "智能机器人/机器人学导论.pdf",
+                "page": 108,
+                "left": -34,
+                "top": 644,
+                "zoom": 0.4409722619568593
+              },
+              "icon": "lucide-file-text",
+              "title": "机器人学导论"
+            }
+          }
+        ]
+      },
+      {
+        "id": "5c51069359ec8818",
+        "type": "tabs",
+        "dimension": 72.97297297297297,
+        "children": [
+          {
+            "id": "67c702a318f5f72b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -183,8 +207,11 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "39301bd57989cbce",
+  "active": "67c702a318f5f72b",
   "lastOpenFiles": [
+    "智能机器人/机器人学导论.pdf",
+    "智能机器人/智能机器人.md",
+    "image.png",
     "智能机器人/pic_智能机器人/Pasted image 20250312151948.png",
     "智能机器人/pic_智能机器人/Pasted image 20250317064108.png",
     "智能机器人/pic_智能机器人/Pasted image 20250317093747.png",
@@ -194,10 +221,6 @@
     "Pasted image 20250321160642.png",
     "Pasted image 20250321155758.png",
     "Pasted image 20250321155655.png",
-    "智能机器人/智能机器人.md",
-    "智能机器人/pic_智能机器人/image-6.png",
-    "智能机器人/pic_智能机器人/image-5.png",
-    "智能机器人/机器人学导论.pdf",
     "未命名.md",
     "未命名 1.md",
     "智能机器人",
