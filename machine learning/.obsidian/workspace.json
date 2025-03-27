@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "25d4a044c6a6f0c4",
@@ -184,13 +183,13 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "60207ad1427bcbd0",
+  "active": "3aaf6528f2a4f4e4",
   "lastOpenFiles": [
-    "智能机器人/机器人学导论.pdf",
     "智能机器人/智能机器人.md",
-    "image-1.png",
-    "image.png",
-    "未命名.md",
+    "Homework.md",
+    "智能机器人/机器人学导论.pdf",
+    "智能机器人/pic_智能机器人/image-1 1.png",
+    "智能机器人/pic_智能机器人/image 2.png",
     "机器学习 .pdf",
     "智能机器人/pic_智能机器人/image 1.png",
     "智能机器人/pic_智能机器人/Pasted image 20250312151948.png",
@@ -204,7 +203,7 @@
     "智能机器人",
     "智能机器人/pic_智能机器人",
     "conflict-files-obsidian-git.md",
-    "Q24301210_庞磊.md",
+    "Homework.md",
     "机器人学导论.md",
     "图片URL.md",
     "智能机器人技术.md",
