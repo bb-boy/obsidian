@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9c87c312c0e3d451",
+        "id": "baad618fd0caae72",
         "type": "tabs",
         "children": [
           {
-            "id": "60207ad1427bcbd0",
+            "id": "4bee2615c6337d60",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -183,14 +183,14 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "3aaf6528f2a4f4e4",
+  "active": "4bee2615c6337d60",
   "lastOpenFiles": [
+    "机器学习 .pdf",
     "智能机器人/智能机器人.md",
     "Homework.md",
     "智能机器人/机器人学导论.pdf",
     "智能机器人/pic_智能机器人/image-1 1.png",
     "智能机器人/pic_智能机器人/image 2.png",
-    "机器学习 .pdf",
     "智能机器人/pic_智能机器人/image 1.png",
     "智能机器人/pic_智能机器人/Pasted image 20250312151948.png",
     "智能机器人/pic_智能机器人/Pasted image 20250317064108.png",
@@ -203,7 +203,6 @@
     "智能机器人",
     "智能机器人/pic_智能机器人",
     "conflict-files-obsidian-git.md",
-    "Homework.md",
     "机器人学导论.md",
     "图片URL.md",
     "智能机器人技术.md",
