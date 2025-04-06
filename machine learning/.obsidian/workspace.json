@@ -11,32 +11,19 @@
             "id": "4bee2615c6337d60",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "智能机器人/智能机器人.md",
-                "mode": "source",
-                "source": false
+                "file": "机器学习/机器学习实战.pdf",
+                "page": 1,
+                "left": -18,
+                "top": 846,
+                "zoom": 0.811764705882353
               },
-              "icon": "lucide-file",
-              "title": "智能机器人"
-            }
-          },
-          {
-            "id": "52df7fc69d00ef8f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "智能机器人/智能机器人.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "智能机器人"
+              "icon": "lucide-file-text",
+              "title": "机器学习实战"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -198,13 +185,15 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "52df7fc69d00ef8f",
+  "active": "3aaf6528f2a4f4e4",
   "lastOpenFiles": [
-    "智能机器人/机器人学导论.pdf",
-    "Homework.md",
-    "机器学习 .pdf",
+    "机器学习/机器学习 .pdf",
+    "机器学习/机器学习实战.pdf",
+    "机器学习",
     "image.png",
+    "Homework.md",
     "智能机器人/智能机器人.md",
+    "智能机器人/机器人学导论.pdf",
     "image-2.png",
     "image-1.png",
     "智能机器人/pic_智能机器人/image-1 1.png",
