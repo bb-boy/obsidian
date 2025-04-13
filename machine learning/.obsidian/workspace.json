@@ -14,10 +14,10 @@
               "type": "pdf",
               "state": {
                 "file": "机器学习/机器学习实战.pdf",
-                "page": 52,
+                "page": 56,
                 "left": -15,
-                "top": 787,
-                "zoom": 0.9883018010153154
+                "top": 480,
+                "zoom": 0.9882352941176471
               },
               "icon": "lucide-file-text",
               "title": "机器学习实战"
@@ -201,12 +201,12 @@
   },
   "active": "94d1f5fce6334307",
   "lastOpenFiles": [
-    "机器学习/Notes.md",
+    "Homework.md",
     "机器学习/机器学习实战.pdf",
+    "机器学习/Notes.md",
     "机器学习/机器学习 .pdf",
     "机器学习",
     "image.png",
-    "Homework.md",
     "智能机器人/智能机器人.md",
     "智能机器人/机器人学导论.pdf",
     "image-2.png",
