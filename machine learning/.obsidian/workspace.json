@@ -4,27 +4,27 @@
     "type": "split",
     "children": [
       {
-        "id": "51e56096ec2f220c",
+        "id": "5d6c6aeceb128d26",
         "type": "tabs",
         "children": [
           {
-            "id": "94d1f5fce6334307",
+            "id": "62ced5ec0ebfdbfa",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "机器学习/机器学习实战.pdf",
-                "page": 56,
-                "left": -15,
-                "top": 480,
-                "zoom": 0.9882352941176471
+                "file": "机器学习/机器学习 .pdf",
+                "page": 4,
+                "left": -12,
+                "top": 274,
+                "zoom": 1.2746113989637307
               },
               "icon": "lucide-file-text",
-              "title": "机器学习实战"
+              "title": "机器学习"
             }
           },
           {
-            "id": "2942a37980db9708",
+            "id": "29106d8fd8835c3d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -37,7 +37,8 @@
               "title": "Notes"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -199,25 +200,28 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "94d1f5fce6334307",
+  "active": "29106d8fd8835c3d",
   "lastOpenFiles": [
-    "Homework.md",
-    "机器学习/机器学习实战.pdf",
-    "机器学习/Notes.md",
-    "机器学习/机器学习 .pdf",
-    "机器学习",
-    "image.png",
-    "智能机器人/智能机器人.md",
     "智能机器人/机器人学导论.pdf",
+    "智能机器人/智能机器人.md",
+    "机器学习/机器学习 .pdf",
+    "机器学习/Notes.md",
+    "机器学习/机器学习实战.pdf",
+    "Tags",
+    "未命名.canvas",
+    "06340DA5-D523-45D6-9306-61127FA10EF5.png",
+    "C2A6C28F-751F-4893-BA77-8154E29F3F01.png",
+    "image.png",
+    "Homework of Session 9.md",
+    "智能机器人/pic_智能机器人/image.png",
+    "Homework.md",
+    "机器学习",
     "image-2.png",
     "image-1.png",
     "智能机器人/pic_智能机器人/image-1 1.png",
     "智能机器人/pic_智能机器人/image 2.png",
     "智能机器人/pic_智能机器人/image 1.png",
     "智能机器人/pic_智能机器人/Pasted image 20250312151948.png",
-    "智能机器人/pic_智能机器人/Pasted image 20250317064108.png",
-    "智能机器人/pic_智能机器人/Pasted image 20250317093747.png",
-    "智能机器人/pic_智能机器人/Pasted image 20250317102315.png",
     "未命名 1.md",
     "智能机器人",
     "智能机器人/pic_智能机器人",
@@ -229,7 +233,6 @@
     "智能机器人/图片",
     "智能机器人",
     "欢迎.md",
-    "咖喱鸡.md",
-    "未命名.canvas"
+    "咖喱鸡.md"
   ]
 }

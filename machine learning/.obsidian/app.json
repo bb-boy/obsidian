@@ -1,6 +1,6 @@
 {
   "pdfExportSettings": {
-    "includeName": false,
+    "includeName": true,
     "pageSize": "Letter",
     "landscape": false,
     "margin": "0",
@@ -9,5 +9,6 @@
   "showLineNumber": false,
   "readableLineLength": true,
   "alwaysUpdateLinks": true,
-  "strictLineBreaks": true
+  "strictLineBreaks": true,
+  "promptDelete": false
 }
