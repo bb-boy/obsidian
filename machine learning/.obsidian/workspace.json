@@ -8,47 +8,47 @@
         "type": "tabs",
         "children": [
           {
-            "id": "62ced5ec0ebfdbfa",
+            "id": "7b4e134b6d6cfea0",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "机器学习/机器学习 .pdf",
-                "page": 4,
-                "left": -12,
-                "top": 274,
-                "zoom": 1.2746113989637307
+                "file": "线性系统理论/线性系统理论 _线性系统理论 (郑大钟) (Z-Library)_66D3_Flatten.pdf",
+                "page": 38,
+                "left": -127,
+                "top": 575,
+                "zoom": 0.9
               },
               "icon": "lucide-file-text",
-              "title": "机器学习"
+              "title": "线性系统理论 _线性系统理论 (郑大钟) (Z-Library)_66D3_Flatten"
             }
           },
           {
-            "id": "29106d8fd8835c3d",
+            "id": "dcd6e7e4d4ea47a4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "机器学习/Notes.md",
+                "file": "线性系统理论/线性系统理论.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Notes"
+              "title": "线性系统理论"
             }
           },
           {
-            "id": "7b4e134b6d6cfea0",
+            "id": "cccbda0cf801b502",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "电子电力控制/论文汇报.md",
-                "mode": "source",
+                "file": "线性系统理论/第二章课后作业.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "论文汇报"
+              "title": "第二章课后作业"
             }
           }
         ],
@@ -214,15 +214,20 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "7b4e134b6d6cfea0",
+  "active": "cccbda0cf801b502",
   "lastOpenFiles": [
+    "image.png",
+    "线性系统理论/线性系统理论.md",
+    "线性系统理论/第二章课后作业.md",
+    "线性系统理论/线性系统理论 _线性系统理论 (郑大钟) (Z-Library)_66D3_Flatten.pdf",
+    "机器学习/Notes.md",
+    "机器学习/机器学习 .pdf",
+    "电子电力控制/论文汇报.md",
+    "线性系统理论",
     "电子电力控制/星形连接.png",
     "电子电力控制/PI控制器.png",
-    "电子电力控制/论文汇报.md",
-    "机器学习/Notes.md",
     "电子电力控制",
     "机器学习/机器学习实战.pdf",
-    "机器学习/机器学习 .pdf",
     "智能机器人/智能机器人.md",
     "智能机器人/机器人学导论.pdf",
     "Tags",
@@ -238,7 +243,6 @@
     "智能机器人/pic_智能机器人/image-1 1.png",
     "智能机器人/pic_智能机器人/image 2.png",
     "智能机器人/pic_智能机器人/image 1.png",
-    "智能机器人/pic_智能机器人/Pasted image 20250312151948.png",
     "未命名 1.md",
     "智能机器人",
     "智能机器人/pic_智能机器人",
@@ -247,8 +251,6 @@
     "图片URL.md",
     "智能机器人技术.md",
     "2025-03-12.md",
-    "智能机器人/图片",
-    "智能机器人",
     "欢迎.md",
     "咖喱鸡.md"
   ]
