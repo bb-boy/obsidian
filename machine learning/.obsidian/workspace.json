@@ -43,12 +43,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "线性系统理论/第二章课后作业.md",
-                "mode": "source",
+                "file": "线性系统理论/线性控制理论课后作业.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "第二章课后作业"
+              "title": "线性控制理论课后作业"
             }
           }
         ],
@@ -221,7 +221,7 @@
     "p2.7.png",
     "P2.1.png",
     "线性系统理论/线性系统理论.md",
-    "线性系统理论/第二章课后作业.md",
+    "线性系统理论/线性控制理论课后作业.md",
     "线性系统理论/线性系统理论 _线性系统理论 (郑大钟) (Z-Library)_66D3_Flatten.pdf",
     "机器学习/Notes.md",
     "机器学习/机器学习 .pdf",
