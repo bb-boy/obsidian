@@ -41,14 +41,12 @@
             "id": "cccbda0cf801b502",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "线性系统理论/线性控制理论课后作业.md",
-                "mode": "preview",
-                "source": false
+                "file": "线性系统理论/image.png"
               },
-              "icon": "lucide-file",
-              "title": "线性控制理论课后作业"
+              "icon": "lucide-image",
+              "title": "image"
             }
           }
         ],
@@ -214,14 +212,14 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "cccbda0cf801b502",
+  "active": "3aaf6528f2a4f4e4",
   "lastOpenFiles": [
-    "image.png",
-    "p2.19.png",
-    "p2.7.png",
-    "P2.1.png",
-    "线性系统理论/线性系统理论.md",
     "线性系统理论/线性控制理论课后作业.md",
+    "线性系统理论/image.png",
+    "线性系统理论/p2.19.png",
+    "线性系统理论/p2.7.png",
+    "线性系统理论/P2.1.png",
+    "线性系统理论/线性系统理论.md",
     "线性系统理论/线性系统理论 _线性系统理论 (郑大钟) (Z-Library)_66D3_Flatten.pdf",
     "机器学习/Notes.md",
     "机器学习/机器学习 .pdf",
@@ -242,7 +240,6 @@
     "Homework.md",
     "机器学习",
     "智能机器人/pic_智能机器人/image-1 1.png",
-    "智能机器人/pic_智能机器人/image 2.png",
     "未命名 1.md",
     "智能机器人",
     "智能机器人/pic_智能机器人",
