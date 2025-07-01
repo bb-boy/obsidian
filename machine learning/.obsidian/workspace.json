@@ -41,16 +41,32 @@
             "id": "cccbda0cf801b502",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "线性系统理论/image.png"
+                "file": "电子电力控制/论文汇报.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "image"
+              "icon": "lucide-file",
+              "title": "论文汇报"
+            }
+          },
+          {
+            "id": "48e3a939ffead414",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "区块链/概念解释.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "概念解释"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -212,10 +228,15 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "3aaf6528f2a4f4e4",
+  "active": "48e3a939ffead414",
   "lastOpenFiles": [
-    "线性系统理论/线性控制理论课后作业.md",
+    "未命名.md",
+    "区块链/概念解释.md",
+    "电子电力控制/论文汇报.md",
+    "区块链",
+    "电子电力控制/星形连接.png",
     "线性系统理论/image.png",
+    "线性系统理论/线性控制理论课后作业.md",
     "线性系统理论/p2.19.png",
     "线性系统理论/p2.7.png",
     "线性系统理论/P2.1.png",
@@ -223,9 +244,7 @@
     "线性系统理论/线性系统理论 _线性系统理论 (郑大钟) (Z-Library)_66D3_Flatten.pdf",
     "机器学习/Notes.md",
     "机器学习/机器学习 .pdf",
-    "电子电力控制/论文汇报.md",
     "线性系统理论",
-    "电子电力控制/星形连接.png",
     "电子电力控制/PI控制器.png",
     "电子电力控制",
     "机器学习/机器学习实战.pdf",
@@ -242,7 +261,6 @@
     "智能机器人/pic_智能机器人/image-1 1.png",
     "未命名 1.md",
     "智能机器人",
-    "智能机器人/pic_智能机器人",
     "conflict-files-obsidian-git.md",
     "机器人学导论.md",
     "图片URL.md",
