@@ -8,79 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7b4e134b6d6cfea0",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "线性系统理论/线性系统理论 _线性系统理论 (郑大钟) (Z-Library)_66D3_Flatten.pdf",
-                "page": 38,
-                "left": -127,
-                "top": 575,
-                "zoom": 0.9
-              },
-              "icon": "lucide-file-text",
-              "title": "线性系统理论 _线性系统理论 (郑大钟) (Z-Library)_66D3_Flatten"
-            }
-          },
-          {
-            "id": "dcd6e7e4d4ea47a4",
+            "id": "cadc127e50e2f0ff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "线性系统理论/线性系统理论.md",
+                "file": "Stm32/STM32.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "线性系统理论"
-            }
-          },
-          {
-            "id": "cccbda0cf801b502",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "电子电力控制/论文汇报.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "论文汇报"
-            }
-          },
-          {
-            "id": "48e3a939ffead414",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "区块链/概念解释.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "概念解释"
-            }
-          },
-          {
-            "id": "71a4647f437018fa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "stm32/未命名.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "未命名"
+              "title": "STM32"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -137,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "25d4a044c6a6f0c4",
@@ -242,37 +184,39 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "3aaf6528f2a4f4e4",
+  "active": "cadc127e50e2f0ff",
   "lastOpenFiles": [
+    "image.png",
+    "托卡马克/托卡马克 第四版 -- 约翰·韦森  (John Wesson) -- Di 1 ban, Beijing, 2021 -- 清华大学出版社 .pdf",
+    "Stm32/STM32.md",
+    "托卡马克/托卡马克.md",
     "区块链/概念解释.md",
-    "stm32/未命名.md",
-    "stm32",
-    "电子电力控制/论文汇报.md",
-    "区块链",
-    "电子电力控制/星形连接.png",
+    "托卡马克/笔记",
+    "托卡马克",
     "线性系统理论/image.png",
+    "线性系统理论/线性系统理论 _线性系统理论 (郑大钟) (Z-Library)_66D3_Flatten.pdf",
+    "线性系统理论/线性系统理论.md",
     "线性系统理论/线性控制理论课后作业.md",
+    "电子电力控制/论文汇报.md",
+    "电子电力控制/星形连接.png",
+    "机器学习/Notes.md",
+    "机器学习/机器学习 .pdf",
+    "机器学习/机器学习实战.pdf",
+    "Stm32",
+    "区块链",
     "线性系统理论/p2.19.png",
     "线性系统理论/p2.7.png",
     "线性系统理论/P2.1.png",
-    "线性系统理论/线性系统理论.md",
-    "线性系统理论/线性系统理论 _线性系统理论 (郑大钟) (Z-Library)_66D3_Flatten.pdf",
-    "机器学习/Notes.md",
-    "机器学习/机器学习 .pdf",
     "线性系统理论",
     "电子电力控制/PI控制器.png",
     "电子电力控制",
-    "机器学习/机器学习实战.pdf",
     "智能机器人/智能机器人.md",
-    "智能机器人/机器人学导论.pdf",
-    "Tags",
     "未命名.canvas",
     "06340DA5-D523-45D6-9306-61127FA10EF5.png",
     "C2A6C28F-751F-4893-BA77-8154E29F3F01.png",
     "Homework of Session 9.md",
     "智能机器人/pic_智能机器人/image.png",
     "Homework.md",
-    "机器学习",
     "智能机器人/pic_智能机器人/image-1 1.png",
     "未命名 1.md",
     "conflict-files-obsidian-git.md",
