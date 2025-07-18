@@ -28,7 +28,7 @@ Push-Pull Output**推挽输出（Push-Pull）模式**是一种**输出方式**�
 ``` 
     RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOC,ENABLE);   //开启GPIOC时钟
 	GPIO_InitTypeDef GPIO_InitStructure;					//定义GPIO初始化结构体
-	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;		//设置GPIO端口的模式为推挽模式
+	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;	//设置GPIO端口的模式为推挽模式
 	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_13;				//选择操作第13个引脚
 	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;		//选择电平变化频率
 	GPIO_Init(GPIOC,&GPIO_InitStructure);
@@ -36,10 +36,15 @@ Push-Pull Output**推挽输出（Push-Pull）模式**是一种**输出方式**�
 	//GPIO_ResetBits(GPIOC,GPIO_Pin_13);         	//设置端口低电平
 
 ```
-**RCC_APB2PeriphClockCmd解析：**
+**RCC_APB2PeriphClockCmd命令解析：**
 - **RCC**：时钟控制模块
 - **APB2**：外设总线
 - **PeriphClockCmd**：外设时钟命令
 - **RCC_APB2Periph_GPIOC**：指定C组GPIO
 - **ENABLE**：使能（打开）
 
+![[image-1.png]]![[image-2.png]]上拉模式，下拉模式
+斯密特触发器
+![[image-3.png]]
+
+开漏，关闭模式
