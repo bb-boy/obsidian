@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "25d4a044c6a6f0c4",
@@ -189,10 +190,10 @@
     "Stm32/STM32.md",
     "Stm32/pic",
     "噶时光的.md",
-    "Stm32/pic/image-5.png",
-    "Stm32/pic/image-4.png",
-    "Stm32/pic/image-3.png",
-    "Stm32/pic/image-2.png",
+    "Stm32/pic/开漏_推挽输出.png",
+    "Stm32/pic/GPIO端口模式.png",
+    "Stm32/pic/GPIO位结构.png",
+    "Stm32/pic/GPIO基本结构.png",
     "Stm32/pic/image-1.png",
     "托卡马克/托卡马克 第四版 -- 约翰·韦森  (John Wesson) -- Di 1 ban, Beijing, 2021 -- 清华大学出版社 .pdf",
     "托卡马克/托卡马克.md",
