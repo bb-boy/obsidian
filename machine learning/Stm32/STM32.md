@@ -90,10 +90,10 @@ GPIO通用输入输出接口
 
 ``
 
-![[image-1.png]]![[image-2.png]]上拉模式，下拉模式
+![[Stm32/pic/image-1.png]]![[Stm32/pic/image-2.png]]上拉模式，下拉模式
 斯密特触发器
-![[image-3.png]]
+![[Stm32/pic/image-3.png]]
 
 开漏，关闭模式
-![[image-4.png]]
-![[image-5.png]]
+![[Stm32/pic/image-4.png]]
+![[Stm32/pic/image-5.png]]
