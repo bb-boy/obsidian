@@ -11,14 +11,10 @@
             "id": "0d35e4df9ffa013c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Stm32/STM32.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "STM32"
+              "title": "新标签页"
             }
           }
         ]
@@ -183,18 +179,18 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "3aaf6528f2a4f4e4",
+  "active": "64eb5020b63ca271",
   "lastOpenFiles": [
-    "操作系统",
+    "Stm32/pic/image-1.png",
     "Stm32/pic/image.png",
     "Stm32/STM32.md",
+    "操作系统",
     "Stm32/pic",
     "噶时光的.md",
     "Stm32/pic/开漏_推挽输出.png",
     "Stm32/pic/GPIO端口模式.png",
     "Stm32/pic/GPIO位结构.png",
     "Stm32/pic/GPIO基本结构.png",
-    "Stm32/pic/image-1.png",
     "托卡马克/托卡马克 第四版 -- 约翰·韦森  (John Wesson) -- Di 1 ban, Beijing, 2021 -- 清华大学出版社 .pdf",
     "托卡马克/托卡马克.md",
     "区块链/概念解释.md",
@@ -213,7 +209,6 @@
     "区块链",
     "线性系统理论/p2.19.png",
     "线性系统理论/p2.7.png",
-    "线性系统理论",
     "智能机器人/智能机器人.md",
     "未命名.canvas",
     "Homework of Session 9.md",
