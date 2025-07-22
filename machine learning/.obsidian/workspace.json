@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "25d4a044c6a6f0c4",
@@ -184,8 +183,9 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "0d35e4df9ffa013c",
+  "active": "3aaf6528f2a4f4e4",
   "lastOpenFiles": [
+    "操作系统",
     "Stm32/pic/image.png",
     "Stm32/STM32.md",
     "Stm32/pic",
