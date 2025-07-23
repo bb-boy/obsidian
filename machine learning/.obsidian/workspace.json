@@ -11,10 +11,14 @@
             "id": "0d35e4df9ffa013c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "托卡马克/托卡马克.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "托卡马克"
             }
           }
         ]
@@ -179,11 +183,12 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "64eb5020b63ca271",
+  "active": "0d35e4df9ffa013c",
   "lastOpenFiles": [
+    "托卡马克/托卡马克 第四版 -- 约翰·韦森  (John Wesson) -- Di 1 ban, Beijing, 2021 -- 清华大学出版社.pdf",
+    "Stm32/STM32.md",
     "Stm32/pic/image-1.png",
     "Stm32/pic/image.png",
-    "Stm32/STM32.md",
     "操作系统",
     "Stm32/pic",
     "噶时光的.md",
@@ -191,7 +196,6 @@
     "Stm32/pic/GPIO端口模式.png",
     "Stm32/pic/GPIO位结构.png",
     "Stm32/pic/GPIO基本结构.png",
-    "托卡马克/托卡马克 第四版 -- 约翰·韦森  (John Wesson) -- Di 1 ban, Beijing, 2021 -- 清华大学出版社 .pdf",
     "托卡马克/托卡马克.md",
     "区块链/概念解释.md",
     "托卡马克/笔记",
