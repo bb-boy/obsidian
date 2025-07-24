@@ -93,3 +93,21 @@ Push-Pull Output**推挽输出（Push-Pull）模式**是一种**输出方式**�
 ![[开漏_推挽输出.png]]推挽输出通常由**两个MOS管或晶体管**组成——一个接电源（VCC），一个接地（GND），两管互锁：
 - 当要输出高电平时，上管导通，下管截止，IO口输出VCC；
 - 当要输出低电平时，下管导通，上管截止，IO口输出GND。
+
+
+新建项目流程
+
+新建user library start文件夹
+组管理删除默认组，添加三个新建文件夹并添加文件，start添加md.s、.c .h
+lib中添加所有文件，user中添加所有文件
+
+魔术棒按钮 c/c++ include path中添加三个文件夹
+define中协商USE_STDPERIPH_DRIVER
+debug中选择st_link,settting中勾选复位并执行
+
+
+GPIO_ResetBits
+GPIO_WriteBit(GPIOA,GPIO_Pin_0,Bit_RESET);
+GPIO_SetBits(GPIOA,GPIO_Pin_0);
+推挽输出和开漏输出，
+默认是低电平还是高电平
