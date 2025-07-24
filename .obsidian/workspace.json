@@ -11,12 +11,12 @@
             "id": "983c2fe52d8b4f77",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "pdf",
               "state": {
-                "file": "machine learning/电子电力控制/星形连接.png"
+                "file": "machine learning/托卡马克/140GHz回旋管理论与实验研究_马国武.pdf"
               },
-              "icon": "lucide-image",
-              "title": "星形连接"
+              "icon": "lucide-file-text",
+              "title": "140GHz回旋管理论与实验研究_马国武"
             }
           }
         ]
@@ -92,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "machine learning/电子电力控制/星形连接.png",
+                "file": "machine learning/托卡马克/140GHz回旋管理论与实验研究_马国武.pdf",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 星形连接"
+              "title": "Backlinks for 140GHz回旋管理论与实验研究_马国武"
             }
           },
           {
@@ -111,12 +111,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "machine learning/电子电力控制/星形连接.png",
+                "file": "machine learning/托卡马克/140GHz回旋管理论与实验研究_马国武.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 星形连接"
+              "title": "Outgoing links from 140GHz回旋管理论与实验研究_马国武"
             }
           },
           {
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "machine learning/电子电力控制/星形连接.png",
+                "file": "machine learning/托卡马克/140GHz回旋管理论与实验研究_马国武.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 星形连接"
+              "title": "Outline of 140GHz回旋管理论与实验研究_马国武"
             }
           },
           {
@@ -179,6 +179,8 @@
   },
   "active": "46a93b90fb0224c1",
   "lastOpenFiles": [
+    "machine learning/区块链/概念解释.md",
+    "machine learning/电子电力控制/星形连接.png",
     "machine learning/电子电力控制/论文汇报.md"
   ]
 }
