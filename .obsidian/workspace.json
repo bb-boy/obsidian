@@ -11,10 +11,12 @@
             "id": "983c2fe52d8b4f77",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "image",
+              "state": {
+                "file": "machine learning/电子电力控制/星形连接.png"
+              },
+              "icon": "lucide-image",
+              "title": "星形连接"
             }
           }
         ]
@@ -90,6 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "machine learning/电子电力控制/星形连接.png",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -99,7 +102,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for 星形连接"
             }
           },
           {
@@ -108,11 +111,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "machine learning/电子电力控制/星形连接.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from 星形连接"
             }
           },
           {
@@ -136,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "machine learning/电子电力控制/星形连接.png",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of 星形连接"
             }
           },
           {
@@ -172,6 +177,8 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5ad9dceeb95ac334",
-  "lastOpenFiles": []
+  "active": "46a93b90fb0224c1",
+  "lastOpenFiles": [
+    "machine learning/电子电力控制/论文汇报.md"
+  ]
 }
