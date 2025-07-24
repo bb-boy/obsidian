@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "托卡马克/托卡马克.md",
+                "file": "Stm32/STM32.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "托卡马克"
+              "title": "STM32"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "25d4a044c6a6f0c4",
@@ -185,6 +186,9 @@
   },
   "active": "0d35e4df9ffa013c",
   "lastOpenFiles": [
+    "image-1.png",
+    "image.png",
+    "托卡马克/托卡马克.md",
     "托卡马克/140GHz回旋管理论与实验研究_马国武.pdf",
     "托卡马克/回旋管运行实验研究.pdf",
     "托卡马克/托卡马克 第四版 -- 约翰·韦森  (John Wesson) -- Di 1 ban, Beijing, 2021 -- 清华大学出版社.pdf",
@@ -198,7 +202,6 @@
     "Stm32/pic/GPIO端口模式.png",
     "Stm32/pic/GPIO位结构.png",
     "Stm32/pic/GPIO基本结构.png",
-    "托卡马克/托卡马克.md",
     "区块链/概念解释.md",
     "托卡马克/笔记",
     "托卡马克",
@@ -211,9 +214,7 @@
     "机器学习/Notes.md",
     "机器学习/机器学习 .pdf",
     "机器学习/机器学习实战.pdf",
-    "Stm32",
     "线性系统理论/p2.19.png",
-    "线性系统理论/p2.7.png",
     "智能机器人/智能机器人.md",
     "未命名.canvas",
     "Homework of Session 9.md",
