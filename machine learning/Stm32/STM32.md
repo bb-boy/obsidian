@@ -111,3 +111,9 @@ GPIO_WriteBit(GPIOA,GPIO_Pin_0,Bit_RESET);
 GPIO_SetBits(GPIOA,GPIO_Pin_0);
 推挽输出和开漏输出，
 默认是低电平还是高电平
+延时函数是怎样工作的
+
+
+### GPIO输入
+按键抖动![[image.png]]
+![[image-1.png]]滤波电容有什么用
