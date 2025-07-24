@@ -95,22 +95,91 @@ Push-Pull Output**推挽输出（Push-Pull）模式**是一种**输出方式**�
 - 当要输出低电平时，下管导通，上管截止，IO口输出GND。
 
 
-新建项目流程
+## 三、新建项目流程
 
-新建user library start文件夹
-组管理删除默认组，添加三个新建文件夹并添加文件，start添加md.s、.c .h
-lib中添加所有文件，user中添加所有文件
+- 本地新建User Library Start文件夹
+- 组管理删除默认组，添加三个新建文件夹并添加文件，Start文件夹中添加md.s、.c .h文件
+- lib中添加所有文件，user中添加所有文件
+- 魔术棒按钮 C/C++   include path中添加三个文件夹
+- define中写USE_STDPERIPH_DRIVER
+- debug中选择ST_link，settting中勾选复位并执行
 
-魔术棒按钮 c/c++ include path中添加三个文件夹
-define中协商USE_STDPERIPH_DRIVER
-debug中选择st_link,settting中勾选复位并执行
+## 四、LED闪烁＋蜂鸣器
+
+```
+#include "stm32f10x.h"                  // Device header
+#include "Delay.h"                 //延时函数
+int main(void){
+	
+	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA,ENABLE);  
+	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOB,ENABLE); //开始GPIOA/B口时钟
+	
+	GPIO_InitTypeDef GPIOA_InitStructure;
+	GPIO_InitTypeDef GPIOB_InitStructure;              //GPIO初始化结构体
+	
+	GPIOA_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;   //设置模式为推免输出
+	GPIOA_InitStructure.GPIO_Pin = GPIO_Pin_All ;    //初始化所有引脚
+	GPIOA_InitStructure.GPIO_Speed =  GPIO_Speed_50MHz;
+	
+	GPIOB_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP; //设置模式为开漏输出
+	GPIOB_InitStructure.GPIO_Pin = GPIO_Pin_12 ;   //初始化第12个引脚
+	GPIOB_InitStructure.GPIO_Speed =  GPIO_Speed_50MHz;
+	
+	GPIO_Init(GPIOA,&GPIOA_InitStructure);
+	GPIO_Init(GPIOB,&GPIOB_InitStructure);//初始化
+	
+	
+	while(1){
+		GPIO_Write(GPIOA,~0x0001);
+		Delay_ms(100);
+		GPIO_Write(GPIOA,~0x0002);
+		Delay_ms(100);
+		GPIO_Write(GPIOA,~0x0004);
+		Delay_ms(100);
+		GPIO_Write(GPIOA,~0x0008);
+		Delay_ms(100);
+		GPIO_Write(GPIOA,~0x0010);
+		Delay_ms(100);
+		GPIO_Write(GPIOA,~0x0020);
+		Delay_ms(100);
+		GPIO_Write(GPIOA,~0x0040);
+		Delay_ms(100);
+		GPIO_Write(GPIOA,~0x0080);
+		Delay_ms(100);
+		
+		GPIO_ResetBits(GPIOB,GPIO_Pin_12);
+		Delay_ms(100);
+		GPIO_SetBits(GPIOB,GPIO_Pin_12);
+		Delay_ms(100);
+		GPIO_ResetBits(GPIOB,GPIO_Pin_12);
+		Delay_ms(100);
+		GPIO_SetBits(GPIOB,GPIO_Pin_12);
+		Delay_ms(700);
+		
+	}
+}
 
 
-GPIO_ResetBits
-GPIO_WriteBit(GPIOA,GPIO_Pin_0,Bit_RESET);
-GPIO_SetBits(GPIOA,GPIO_Pin_0);
-推挽输出和开漏输出，
-默认是低电平还是高电平
+```
+
+
+
+**`GPIO_SetBits、GPIO_ResetBits`** 这个函数用于**将某个GPIO端口的指定引脚**拉低为逻辑“0”，也就是输出低电平。
+**`GPIO_Write`** 这个函数用于**一次性设置整个GPIO端口的输出电平**，可以将所有8个/16个引脚同时写成你指定的状态（高或低）。
+**GPIO_WriteBit(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin, BitAction BitVal)**
+**参数解释：**
+
+- `GPIOx`: 指定要操作的GPIO端口。在这里 `GPIOA` 指的是A端口。
+    
+- `GPIO_Pin`: 指定要操作的具体引脚。在这里 `GPIO_Pin_0` 指的是0号引脚。
+    
+- `BitVal`: 指定要写入的电平状态。这个参数可以是两个值：
+    
+    - `Bit_SET`: 设置引脚为高电平 (Logic 1)。
+        
+    - `Bit_RESET`: 设置引脚为低电平 (Logic 0)。
+
+**推挽输出高低电平都有驱动能力和开漏输出只有低电平有驱动能力**
 延时函数是怎样工作的
 
 
