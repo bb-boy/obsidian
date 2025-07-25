@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "machine learning/托卡马克/托卡马克.md",
+                "file": "machine learning/Stm32/STM32.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "托卡马克"
+              "title": "STM32"
             }
           }
         ]
@@ -181,6 +181,9 @@
   },
   "active": "983c2fe52d8b4f77",
   "lastOpenFiles": [
+    "machine learning/托卡马克/托卡马克.md",
+    "machine learning/image.png",
+    "machine learning/image-1.png",
     "machine learning/托卡马克/140GHz回旋管理论与实验研究_马国武.pdf",
     "machine learning/区块链/概念解释.md",
     "machine learning/电子电力控制/星形连接.png",
