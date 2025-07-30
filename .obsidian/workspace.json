@@ -11,12 +11,14 @@
             "id": "983c2fe52d8b4f77",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "machine learning/image-1.png"
+                "file": "machine learning/Stm32/STM32.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "image-1"
+              "icon": "lucide-file",
+              "title": "STM32"
             }
           }
         ]
@@ -179,6 +181,16 @@
   },
   "active": "46a93b90fb0224c1",
   "lastOpenFiles": [
+    "machine learning/操作系统/操作系统真象还原 (郑纲).pdf",
+    "machine learning/操作系统/Notes.md",
+    "machine learning/操作系统",
+    "machine learning/Stm32/pic/按键抖动.png",
+    "machine learning/Stm32/pic/image.png",
+    "machine learning/Stm32/pic/image-1.png",
+    "machine learning/FPGA/FPGA.md",
+    "machine learning/FPGA",
+    "machine learning/EPICS/Notes.md",
+    "machine learning/EPICS",
     "machine learning/image.png",
     "machine learning/Stm32/STM32.md",
     "machine learning/托卡马克/托卡马克.md",
