@@ -8,22 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0d35e4df9ffa013c",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "操作系统/操作系统真象还原 (郑纲).pdf",
-                "page": 1,
-                "left": 919,
-                "top": 751,
-                "zoom": 1.1270499658818212
-              },
-              "icon": "lucide-file-text",
-              "title": "操作系统真象还原 (郑纲)"
-            }
-          },
-          {
             "id": "8f03a98dbfa98c7d",
             "type": "leaf",
             "state": {
@@ -41,20 +25,18 @@
             "id": "e46483911555749d",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "split-diff-view",
               "state": {
-                "file": "操作系统/操作系统真象还原 (郑纲).pdf",
-                "page": 28,
-                "left": 919,
-                "top": 554,
-                "zoom": 1.1270499658818212
+                "aFile": "machine learning/.obsidian/workspace.json",
+                "bFile": "machine learning/.obsidian/workspace.json",
+                "aRef": ""
               },
-              "icon": "lucide-file-text",
-              "title": "操作系统真象还原 (郑纲)"
+              "icon": "diff",
+              "title": "Diff: workspace.json"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -218,6 +200,8 @@
   },
   "active": "e46483911555749d",
   "lastOpenFiles": [
+    "操作系统/操作系统真象还原 (郑纲).pdf",
+    "EPICS/Notes.md",
     "智能机器人/机器人学导论.pdf",
     "智能机器人/智能机器人.md",
     "托卡马克/托卡马克.md",
@@ -225,11 +209,9 @@
     "机器学习/机器学习 .pdf",
     "机器学习/Notes.md",
     "机器学习/机器学习实战.pdf",
-    "操作系统/操作系统真象还原 (郑纲).pdf",
     "操作系统/Notes.md",
     "Stm32/STM32.md",
     "Stm32/pic/按键抖动.png",
-    "EPICS/Notes.md",
     "未命名",
     "EPICS",
     "Stm32/pic/image-1.png",
@@ -240,7 +222,6 @@
     "托卡马克/回旋管运行实验研究.pdf",
     "托卡马克/托卡马克 第四版 -- 约翰·韦森  (John Wesson) -- Di 1 ban, Beijing, 2021 -- 清华大学出版社.pdf",
     "Stm32/pic/image.png",
-    "操作系统",
     "噶时光的.md",
     "Stm32/pic/开漏_推挽输出.png",
     "Stm32/pic/GPIO端口模式.png",
