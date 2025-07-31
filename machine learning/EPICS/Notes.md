@@ -19,3 +19,5 @@ makeBaseApp.pl -i -t ioc basic
     
 - **uninstall**  
     也是 `Makefile` 里的目标，意思是**把之前通过 `make install` 安装到系统或指定目录的程序或库全部删除**。
+make clean
+make uninstall
