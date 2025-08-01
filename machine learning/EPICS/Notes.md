@@ -91,3 +91,5 @@ make uninstall
 
 
 初步使用Asyn模块
+外部写 → record → asyn模块转发 → 你的驱动 → 设备”
+外部读 → record → asyn模块要数据 → 你的驱动 → 设备，最后回传到客户端”
