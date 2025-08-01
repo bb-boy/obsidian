@@ -182,4 +182,166 @@ Ioc线程包含哪些
 2. **定时扫描线程**每隔1秒会“唤醒”一次 `ROOM:TEMP` 这个 PV，要求它执行一次“读取操作”。
 3. 由于 DTYP/INP 用了 asyn，record 的 process 方法就会通过 asyn 接口，去找“port1”对应的 asyn驱动。
 4. **asyn驱动线程**和底层硬件通信，拿到最新温度数据，再把数据返回给 PV。
-5. PV 更新自己的 VAL 字段，供客户端读取。噶杀gadget
+5. PV 更新自己的 VAL 字段，供客户端读取。
+### 类定义部分
+
+C++
+
+```
+class MyDriver:public asynPortDriver{
+```
+
+- **解释：** `class` 是 C++ 中定义“类”的关键字。类就像一个蓝图或模板，用于创建对象。
+    
+- **`MyDriver`**：这是我们定义的这个类的名字，就像你给一个蓝图起的名字。
+    
+- **`:public asynPortDriver`**：这表示 `MyDriver` 这个类**继承**自 `asynPortDriver` 这个类。继承意味着 `MyDriver` 自动拥有了 `asynPortDriver` 的所有功能和特性，我们只需要添加或修改我们自己的部分即可。这是一种非常重要的面向对象编程思想。
+    
+
+#### 公有成员（`public`）
+
+C++
+
+```
+public:
+MyDriver(const char *portName);
+virtual asynStatus writeInt32(asynUser *pasynUser, epicsInt32 value);
+virtual asynStatus readInt32(asynUser *pasynUser, epicsInt32 *value);
+```
+
+- **`public:`**：这表示下面的成员（函数和变量）可以在类的外部被访问。
+    
+- **`MyDriver(const char *portName);`**：这是这个类的**构造函数**。它的名字和类名一模一样，当一个新的 `MyDriver` 对象被创建时，它就会被自动调用。`const char *portName` 是它的一个参数，用于给这个驱动起一个名字。
+    
+- **`virtual asynStatus writeInt32(...)`**：这是一个**虚函数**。`virtual` 关键字表示我们正在重写父类 `asynPortDriver` 中同名的函数。这个函数负责处理对我们驱动的 32 位整数（`Int32`）的**写入**请求。
+    
+    - `asynStatus` 是函数返回值的类型，它表示操作是成功还是失败。
+        
+- **`virtual asynStatus readInt32(...)`**：和上面类似，这个虚函数负责处理对 32 位整数的**读取**请求。
+    
+
+#### 私有成员（`private`）
+
+C++
+
+```
+private:
+int myNumber;
+int numberIndex_;
+```
+
+- **`private:`**：这表示下面的成员只能在类的内部被访问，外部无法直接访问。
+    
+- **`int myNumber;`**：这是一个普通的整数变量，用于在类内部存储一个 32 位整数值。
+    
+- **`int numberIndex_;`**：这也是一个整数变量。它将用于存储一个索引，这个索引是用来在我们的驱动中唯一地标识一个参数。
+    
+
+### 3. 构造函数的实现
+
+C++
+
+```
+MyDriver::MyDriver(const char *portName)
+:asynPortDriver(portName,
+1,
+asynInt32Mask | asynDrvUserMask,
+asynInt32Mask,
+0,1,0,0)
+{
+    createParam("NUMBER", asynParamInt32, &numberIndex_);
+    setIntegerParam(numberIndex_,0);
+    callParamCallbacks();
+}
+```
+
+- **`MyDriver::MyDriver(...)`**：`::` 符号表示我们正在实现 `MyDriver` 类中的 `MyDriver` 函数。
+    
+- **`:asynPortDriver(...)`**：冒号后面的部分是初始化列表。它调用了父类 `asynPortDriver` 的构造函数，并传递了一些参数来配置我们的驱动。
+    
+    - `portName`：给驱动起的名字。
+        
+    - `1`：表示这个驱动只有一个地址（可以想象成一个设备）。
+        
+    - `asynInt32Mask | asynDrvUserMask`：这是一种位掩码，表示我们的驱动支持两种接口：32位整数 (`asynInt32`) 和用户驱动接口 (`asynDrvUser`)。
+        
+- **`createParam("NUMBER", asynParamInt32, &numberIndex_);`**：
+    
+    - **`createParam`** 是父类 `asynPortDriver` 提供的一个方法。
+        
+    - 我们用它来**创建一个新的参数**。这个参数的名字是 `"NUMBER"`。
+        
+    - `asynParamInt32` 表示它的数据类型是 32 位整数。
+        
+    - `&numberIndex_` 表示将这个新创建参数的索引**存入**我们之前定义的 `numberIndex_` 变量中，方便以后使用。
+        
+- **`setIntegerParam(numberIndex_,0);`**：
+    
+    - 这是父类提供的另一个方法，用于**设置**一个整数参数的值。
+        
+    - 我们把 `numberIndex_` 对应的参数（也就是 "NUMBER"）的初始值设置为 `0`。
+        
+- **`callParamCallbacks();`**：
+    
+    - 这个方法会通知所有监听这个驱动的 EPICS 记录（Record），说我们已经设置了参数的初始值。
+        
+
+### 4. 读写函数的实现
+
+C++
+
+```
+asynStatus MyDriver::writeInt32(...)
+{
+    int function = pasynUser->reason;
+    if(function == numberIndex_){
+        printf("write data \n");
+        return asynSuccess;
+    }
+    return asynPortDriver::writeInt32(pasynUser, value);
+}
+
+asynStatus MyDriver::readInt32(...)
+{
+    int function = pasynUser->reason;
+    if(function == numberIndex_){
+        printf("read data \n");
+        return asynSuccess;
+    }
+    return asynPortDriver::readInt32(pasynUser,value);
+}
+```
+
+- **`int function = pasynUser->reason;`**：`pasynUser` 是一个指向 `asynUser` 结构体的指针，它包含了这次读写请求的各种信息。`reason` 就是一个整数，告诉我们这次请求是针对哪个参数的。
+    
+- **`if(function == numberIndex_)`**：
+    
+    - 这里我们进行判断。如果请求的参数索引（`function`）和我们创建的 "NUMBER" 参数的索引（`numberIndex_`）相同，就执行 `if` 语句里的代码。
+        
+    - **`printf(...)`**：目前代码只是简单地打印一条信息，告诉你“写入数据”或“读取数据”的操作正在进行。
+        
+    - **`return asynSuccess;`**：返回一个 `asynSuccess` 值，告诉 EPICS 这个请求已经成功处理了。
+        
+- **`return asynPortDriver::...`**：
+    
+    - 如果 `if` 的条件不成立（请求的不是我们的 "NUMBER" 参数），我们就调用父类 `asynPortDriver` 的同名函数来处理它。这是一种很好的编程习惯。
+        
+
+### 5. C接口部分
+
+C++
+
+```
+extern "C"{
+// ...
+epicsExportRegistrar(MyDriverRegister);
+}
+```
+
+- **`extern "C"`**：这是一种特殊的语法，用于告诉 C++ 编译器，这部分代码应该以 C 语言的规则来编译和链接。这是因为 EPICS 的核心部分是用 C 语言写的，这样可以确保 C++ 和 C 之间的代码能够顺利地互相调用。
+    
+- **`int MyDriverConfigure(...)`**：这是一个函数，它的作用是创建一个新的 `MyDriver` 对象。在 EPICS 的配置文件（`st.cmd`）中，你会使用 `MyDriverConfigure("端口名")` 来调用它。
+    
+- **`static const iocshArg...`**：这几行代码是 EPICS 的标准“样板代码”，用于**将 `MyDriverConfigure` 函数注册到 EPICS 的命令行工具 `iocsh` 中**。这样，当 IOC 启动后，你就可以在命令行里直接输入 `MyDriverConfigure "端口名"` 来调用它。
+    
+- **`epicsExportRegistrar(MyDriverRegister);`**：这是EPICS的另一个标准宏。它确保 `MyDriverRegister` 这个注册函数在IOC启动时能够被自动找到并执行，从而完成整个注册过程。
