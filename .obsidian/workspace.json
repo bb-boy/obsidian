@@ -167,7 +167,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 201.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,7 +180,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "983c2fe52d8b4f77",
+  "active": "17b439a083a90183",
   "lastOpenFiles": [
     "machine learning/EPICS/Pasted image 20250731200842.png",
     "machine learning/EPICS/Notes.md",
