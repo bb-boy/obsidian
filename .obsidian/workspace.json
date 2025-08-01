@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "8c78a30993349fc3",
@@ -180,16 +179,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "17b439a083a90183",
+  "active": "46a93b90fb0224c1",
   "lastOpenFiles": [
-    "machine learning/EPICS/Pasted image 20250731200842.png",
-    "machine learning/EPICS/Notes.md",
-    "machine learning/FPGA/FPGA.md",
-    "machine learning/EPICS/Pasted image 20250731193828.png",
+    "machine learning/EPICS/Untitled",
     "machine learning/Stm32/STM32.md",
-    "machine learning/image-1.png",
+    "machine learning/FPGA/FPGA.md",
     "machine learning/操作系统/操作系统真象还原 (郑纲).pdf",
     "machine learning/操作系统/Notes.md",
+    "machine learning/EPICS/Notes.md",
+    "machine learning/EPICS/Pasted image 20250731200842.png",
+    "machine learning/EPICS/Pasted image 20250731193828.png",
+    "machine learning/image-1.png",
     "machine learning/操作系统",
     "machine learning/Stm32/pic/按键抖动.png",
     "machine learning/Stm32/pic/image.png",
