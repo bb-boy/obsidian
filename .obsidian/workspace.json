@@ -33,8 +33,7 @@
               "title": "Release Notes 1.9.10"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -194,7 +193,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a467a338db809d74",
+  "active": "983c2fe52d8b4f77",
   "lastOpenFiles": [
     "machine learning/FPGA/FPGA.md",
     "machine learning/EPICS/Notes.md",
