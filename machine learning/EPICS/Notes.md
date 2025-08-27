@@ -385,3 +385,96 @@ record(ai, "PRESSURE:1") {
     - 这个记录每1秒钟被EPICS自动扫描一次，自动触发一次采集。
     - 换句话说，每秒钟你的 `readFloat64` 函数就会被调用一次，采集一次硬件数据。
 **总体来说**，这行代码告诉 EPICS：“当这个记录被处理时，通过名为 `$(PORT)` 的 asyn 端口，去读取 `CH0_DATA` 参数的值”`"PRESSURE:1"` 的记录，它会每隔一秒钟主动向其驱动（由 `INP` 字段指定）请求一次数据。当驱动收到请求时，它会从 NI DAQmx 硬件的通道 `ai0` 读取当前的电压值，并将这个值返回给 EPICS，最终更新到 `"PRESSURE:1"` 这个 PV 上 。
+
+```
+class DaqDriver : public asynPortDriver {
+public:
+    DaqDriver(const char *portName);
+    ~DaqDriver();
+    virtual asynStatus readFloat64(asynUser *pasynUser, epicsFloat64 *value);
+private:
+    double daqData_;       // 存储采集到的数据
+    int daqDataIndex_;     // EPICS参数索引
+    TaskHandle taskhandle_;// NI DAQmx任务句柄
+};
+
+```
+**作用**：
+
+- 定义了一个 EPICS 驱动类 `DaqDriver`，继承自 asynPortDriver。
+- `daqData_` 用于保存当前采集值。
+- `daqDataIndex_` 绑定到 asyn 参数。
+- `taskhandle_` 用于操作DAQ硬件。
+
+
+```
+DaqDriver::DaqDriver(const char *portName)
+: asynPortDriver(portName, 1, asynFloat64Mask | asynDrvUserMask, asynFloat64Mask, 0,1,0,0)
+{
+    createParam("CH0_DATA", asynParamFloat64, &daqDataIndex_);
+    daqData_ = -1;
+    printf("Init Daq Here:\n");
+    DAQmxCreateTask("", &taskhandle_);
+    DAQmxCreateAIVoltageChan(taskhandle_, "NIPCI6251/ai0", "", DAQmx_Val_Cfg_Default, -10.0, 10.0, DAQmx_Val_Volts, NULL);
+}
+
+DaqDriver::~DaqDriver() {
+    printf("Stop DAQ Here\n");
+    DAQmxStopTask(taskhandle_);
+    DAQmxClearTask(taskhandle_);
+}
+
+```
+**作用**：
+
+- **构造函数**：
+    - 初始化 asyn 驱动基类。
+    - 注册一个参数 `"CH0_DATA"`，用于和 EPICS record 绑定。
+    - 创建 NI DAQmx 任务并配置通道。
+- **析构函数**：
+    - 程序退出时释放DAQ硬件资源，停止并清除任务
+
+```
+
+asynStatus DaqDriver::readFloat64(asynUser *pasynUser, epicsFloat64 *value) {
+    int function = pasynUser->reason;
+    if (function == daqDataIndex_) {
+        DAQmxReadAnalogScalarF64(taskhandle_, 10.0, &daqData_, 0);
+        *value = daqData_;
+        printf("read daqData: %f\n", *value);
+        return asynSuccess;
+    }
+    return asynPortDriver::readFloat64(pasynUser, value);
+}
+```
+
+**作用**：
+
+- 每次 EPICS 记录被扫描时（如`SCAN="1 second"`），就会调用这个函数。
+- 调用 NI DAQmx API 从硬件读取一个模拟量（电压等），赋值到 `daqData_`，并返回给 EPICS。
+- 只对 `"CH0_DATA"` 这个参数响应。
+
+
+```
+extern "C" {
+int DaqDriverConfigure(const char *portName) {
+    new DaqDriver(portName);
+    return(asynSuccess);
+}
+static const iocshArg initArg0 = {"portName", iocshArgString};
+static const iocshArg *const initArgs[] = {&initArg0};
+static const iocshFuncDef initFuncDef = {"DaqDriverConfigure", 1, initArgs};
+static void initCallFunc(const iocshArgBuf *args) {
+    DaqDriverConfigure(args[0].sval);
+}
+void daqDriverRegister(void) {
+    iocshRegister(&initFuncDef, initCallFunc);
+}
+epicsExportRegistrar(daqDriverRegister);
+}
+```
+
+- 定义并注册 IOC shell 命令 `DaqDriverConfigure`，可在 `st.cmd` 里调用。
+- `epicsExportRegistrar(daqDriverRegister)` 将注册函数导出给 EPICS 系统，让 `.dbd` 文件可以 `registrar(daqDriverRegister)`。
+
+
