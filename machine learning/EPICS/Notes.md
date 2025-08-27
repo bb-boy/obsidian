@@ -345,3 +345,22 @@ epicsExportRegistrar(MyDriverRegister);
 - **`static const iocshArg...`**：这几行代码是 EPICS 的标准“样板代码”，用于**将 `MyDriverConfigure` 函数注册到 EPICS 的命令行工具 `iocsh` 中**。这样，当 IOC 启动后，你就可以在命令行里直接输入 `MyDriverConfigure "端口名"` 来调用它。
     
 - **`epicsExportRegistrar(MyDriverRegister);`**：这是EPICS的另一个标准宏。它确保 `MyDriverRegister` 这个注册函数在IOC启动时能够被自动找到并执行，从而完成整个注册过程。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+record(ai, "PRESSURE:1") {
+    field(DTYP, "asynFloat64")
+    field(INP,  "@asyn($(PORT))CH0_DATA")
+    field(SCAN, "1 second")
+}
