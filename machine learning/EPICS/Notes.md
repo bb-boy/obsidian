@@ -359,8 +359,29 @@ epicsExportRegistrar(MyDriverRegister);
 
 
 
+
+```
 record(ai, "PRESSURE:1") {
     field(DTYP, "asynFloat64")
     field(INP,  "@asyn($(PORT))CH0_DATA")
     field(SCAN, "1 second")
 }
+```
+
+1. **record(ai, "PRESSURE:1")**
+    
+    - 定义一个类型为`ai`（模拟量输入）的记录，名字叫`PRESSURE:1`。
+    - 你可以通过 EPICS 的 `caget PRESSURE:1` 来读这个PV的值。
+2. **field(DTYP, "asynFloat64")**
+    
+    - 指定这个记录使用 asyn 驱动（asynFloat64 类型，表示64位浮点数）来做底层接口。
+3. **field(INP, "@asyn($(PORT))CH0_DATA")**
+    
+    - 指定底层输入接口。这里的 `@asyn($(PORT))CH0_DATA` 是 EPICS asyn 驱动的特殊语法，意思是：
+        - 使用 asyn 驱动，通过端口名（比如 `PORT=TEST`）和参数 `CH0_DATA`，去底层采集数据。
+        - `CH0_DATA` 就是在你的 C++ 驱动里用 `createParam("CH0_DATA", ...)` 注册的参数。
+4. **field(SCAN, "1 second")**
+    
+    - 这个记录每1秒钟被EPICS自动扫描一次，自动触发一次采集。
+    - 换句话说，每秒钟你的 `readFloat64` 函数就会被调用一次，采集一次硬件数据。
+**总体来说**，这行代码告诉 EPICS：“当这个记录被处理时，通过名为 `$(PORT)` 的 asyn 端口，去读取 `CH0_DATA` 参数的值”`"PRESSURE:1"` 的记录，它会每隔一秒钟主动向其驱动（由 `INP` 字段指定）请求一次数据。当驱动收到请求时，它会从 NI DAQmx 硬件的通道 `ai0` 读取当前的电压值，并将这个值返回给 EPICS，最终更新到 `"PRESSURE:1"` 这个 PV 上 。
