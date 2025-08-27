@@ -22,6 +22,18 @@
             }
           },
           {
+            "id": "785c2441685d54c3",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.12"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.12"
+            }
+          },
+          {
             "id": "a467a338db809d74",
             "type": "leaf",
             "state": {
@@ -33,7 +45,8 @@
               "title": "Release Notes 1.9.10"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -178,7 +191,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 201.5
+    "width": 201.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,16 +206,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "983c2fe52d8b4f77",
+  "active": "785c2441685d54c3",
   "lastOpenFiles": [
-    "machine learning/FPGA/FPGA.md",
+    "machine learning/EPICS/PIC/Pasted image 20250731200842.png",
+    "machine learning/EPICS/PIC/Pasted image 20250731193828.png",
     "machine learning/EPICS/Notes.md",
+    "machine learning/FPGA/FPGA.md",
     "machine learning/EPICS/PIC",
     "machine learning/Stm32/STM32.md",
     "machine learning/操作系统/操作系统真象还原 (郑纲).pdf",
     "machine learning/操作系统/Notes.md",
-    "machine learning/EPICS/PIC/Pasted image 20250731200842.png",
-    "machine learning/EPICS/PIC/Pasted image 20250731193828.png",
     "machine learning/image-1.png",
     "machine learning/操作系统",
     "machine learning/Stm32/pic/按键抖动.png",
