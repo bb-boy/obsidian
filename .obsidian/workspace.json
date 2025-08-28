@@ -25,14 +25,12 @@
             "id": "785c2441685d54c3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "machine learning/EPICS/Notes.md",
-                "mode": "source",
-                "source": false
+                "file": "machine learning/操作系统/操作系统真象还原 (郑纲).pdf"
               },
-              "icon": "lucide-file",
-              "title": "Notes"
+              "icon": "lucide-file-text",
+              "title": "操作系统真象还原 (郑纲)"
             }
           },
           {
@@ -194,7 +192,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 201.5
+    "width": 201.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -210,13 +209,15 @@
   },
   "active": "785c2441685d54c3",
   "lastOpenFiles": [
+    "machine learning/操作系统/操作系统真象还原 (郑纲).pdf",
+    "Untitled 1.base",
+    "Untitled.base",
+    "machine learning/EPICS/Notes.md",
     "machine learning/EPICS/PIC/Pasted image 20250731200842.png",
     "machine learning/EPICS/PIC/Pasted image 20250731193828.png",
-    "machine learning/EPICS/Notes.md",
     "machine learning/FPGA/FPGA.md",
     "machine learning/EPICS/PIC",
     "machine learning/Stm32/STM32.md",
-    "machine learning/操作系统/操作系统真象还原 (郑纲).pdf",
     "machine learning/操作系统/Notes.md",
     "machine learning/image-1.png",
     "machine learning/操作系统",
