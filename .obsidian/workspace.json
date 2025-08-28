@@ -36,6 +36,20 @@
             }
           },
           {
+            "id": "22091f4438871dc9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "machine learning/操作系统/OS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "OS"
+            }
+          },
+          {
             "id": "a467a338db809d74",
             "type": "leaf",
             "state": {
@@ -48,7 +62,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -208,8 +222,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "46a93b90fb0224c1",
+  "active": "22091f4438871dc9",
   "lastOpenFiles": [
+    "machine learning/GIT/GIT.md",
+    "machine learning/FPGA/FPGA.md",
+    "machine learning/GIT",
+    "machine learning/GIT",
     "Untitled 1.base",
     "Untitled.base",
     "machine learning/image.png",
@@ -219,7 +237,6 @@
     "machine learning/EPICS/Notes.md",
     "machine learning/EPICS/PIC/Pasted image 20250731200842.png",
     "machine learning/EPICS/PIC/Pasted image 20250731193828.png",
-    "machine learning/FPGA/FPGA.md",
     "machine learning/EPICS/PIC",
     "machine learning/Stm32/STM32.md",
     "machine learning/image-1.png",
