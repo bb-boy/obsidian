@@ -25,13 +25,14 @@
             "id": "785c2441685d54c3",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "Untitled.base",
-                "viewName": "Table"
+                "file": "machine learning/操作系统/OS.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "Untitled"
+              "icon": "lucide-file",
+              "title": "OS"
             }
           },
           {
@@ -207,15 +208,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "785c2441685d54c3",
+  "active": "46a93b90fb0224c1",
   "lastOpenFiles": [
+    "Untitled 1.base",
+    "Untitled.base",
     "machine learning/操作系统/OS.md",
     "machine learning/操作系统/操作系统真象还原 (郑纲).pdf",
     "machine learning/操作系统/Notes.md",
     "machine learning/image.png",
     "machine learning/EPICS/Notes.md",
-    "Untitled 1.base",
-    "Untitled.base",
     "machine learning/EPICS/PIC/Pasted image 20250731200842.png",
     "machine learning/EPICS/PIC/Pasted image 20250731193828.png",
     "machine learning/FPGA/FPGA.md",
