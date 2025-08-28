@@ -25,14 +25,13 @@
             "id": "785c2441685d54c3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "machine learning/操作系统/OS.md",
-                "mode": "source",
-                "source": false
+                "file": "Untitled.base",
+                "viewName": "Table"
               },
-              "icon": "lucide-file",
-              "title": "OS"
+              "icon": "lucide-table",
+              "title": "Untitled"
             }
           },
           {
@@ -208,11 +207,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "46a93b90fb0224c1",
+  "active": "785c2441685d54c3",
   "lastOpenFiles": [
+    "machine learning/操作系统/OS.md",
     "machine learning/操作系统/操作系统真象还原 (郑纲).pdf",
     "machine learning/操作系统/Notes.md",
-    "machine learning/操作系统/OS.md",
     "machine learning/image.png",
     "machine learning/EPICS/Notes.md",
     "Untitled 1.base",
