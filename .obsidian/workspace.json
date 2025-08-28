@@ -25,13 +25,14 @@
             "id": "785c2441685d54c3",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "Untitled 1.base",
-                "viewName": "Table"
+                "file": "machine learning/FPGA/FPGA.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "Untitled 1"
+              "icon": "lucide-file",
+              "title": "FPGA"
             }
           },
           {
@@ -207,10 +208,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "785c2441685d54c3",
+  "active": "46a93b90fb0224c1",
   "lastOpenFiles": [
-    "Untitled.base",
     "Untitled 1.base",
+    "Untitled.base",
     "machine learning/image.png",
     "machine learning/操作系统/OS.md",
     "machine learning/操作系统/操作系统真象还原 (郑纲).pdf",
