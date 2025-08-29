@@ -33,8 +33,7 @@
               "title": "操作系统真象还原 (郑纲)"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -195,10 +194,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "316819bba7d84f4c",
+  "active": "785c2441685d54c3",
   "lastOpenFiles": [
-    "machine learning/操作系统/OS.md",
     "machine learning/操作系统/操作系统真象还原 (郑纲).pdf",
+    "machine learning/操作系统/OS.md",
     "Pasted image 20250828195132.png",
     "Pasted image 20250828194309.png",
     "Pasted image 20250828194004.png",
