@@ -27,7 +27,11 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "machine learning/操作系统/操作系统真象还原 (郑纲).pdf"
+                "file": "machine learning/操作系统/操作系统真象还原 (郑纲).pdf",
+                "page": 199,
+                "left": -5,
+                "top": 356,
+                "zoom": 1.4414790350100883
               },
               "icon": "lucide-file-text",
               "title": "操作系统真象还原 (郑纲)"
@@ -192,7 +196,10 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
   "active": "87b66b537d2ec163",
