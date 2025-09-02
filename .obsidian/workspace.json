@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "785c2441685d54c3",
+            "id": "316819bba7d84f4c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,12 +22,16 @@
             }
           },
           {
-            "id": "316819bba7d84f4c",
+            "id": "87b66b537d2ec163",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "machine learning/操作系统/操作系统真象还原 (郑纲).pdf"
+                "file": "machine learning/操作系统/操作系统真象还原 (郑纲).pdf",
+                "page": 199,
+                "left": -5,
+                "top": 66,
+                "zoom": 1.4414790350100883
               },
               "icon": "lucide-file-text",
               "title": "操作系统真象还原 (郑纲)"
@@ -192,30 +196,34 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "316819bba7d84f4c",
+  "active": "87b66b537d2ec163",
   "lastOpenFiles": [
     "machine learning/操作系统/OS.md",
     "machine learning/操作系统/操作系统真象还原 (郑纲).pdf",
-    "Pasted image 20250828195132.png",
-    "Pasted image 20250828194309.png",
-    "Pasted image 20250828194004.png",
-    "Pasted image 20250828192737.png",
-    "Pasted image 20250828162000.png",
-    "Pasted image 20250828161946.png",
-    "Pasted image 20250828154726.png",
-    "Pasted image 20250828153135.png",
-    "machine learning/EPICS/Notes.md",
-    "machine learning/操作系统/Pasted image 20250828145854.png",
-    "machine learning/FPGA/FPGA.md",
+    "machine learning/操作系统/shot/image.png",
+    "machine learning/操作系统/shot/Pasted image 20250828145854.png",
+    "machine learning/操作系统/shot/Pasted image 20250828153135.png",
+    "machine learning/操作系统/shot",
+    "machine learning/操作系统/shot/Pasted image 20250828195132.png",
+    "machine learning/操作系统/shot/Pasted image 20250828194004.png",
+    "machine learning/操作系统/shot/Pasted image 20250828192737.png",
+    "machine learning/操作系统/shot/Pasted image 20250828161946.png",
+    "machine learning/操作系统/shot/Pasted image 20250828154726.png",
+    "Untitled 1.base",
     "Untitled.base",
+    "machine learning/操作系统/shot/Pasted image 20250828194309.png",
+    "machine learning/操作系统/shot/Pasted image 20250828162000.png",
+    "machine learning/EPICS/Notes.md",
+    "machine learning/FPGA/FPGA.md",
     "machine learning/GIT/GIT.md",
     "machine learning/GIT",
     "machine learning/GIT",
-    "Untitled 1.base",
-    "machine learning/image.png",
     "machine learning/操作系统/Notes.md",
     "machine learning/EPICS/PIC",
     "machine learning/Stm32/STM32.md",
@@ -223,7 +231,6 @@
     "machine learning/FPGA",
     "machine learning/EPICS",
     "machine learning/托卡马克/托卡马克.md",
-    "machine learning/托卡马克/140GHz回旋管理论与实验研究_马国武.pdf",
     "machine learning/区块链/概念解释.md",
     "machine learning/电子电力控制/论文汇报.md"
   ]

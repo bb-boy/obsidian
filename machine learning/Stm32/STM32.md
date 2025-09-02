@@ -198,3 +198,5 @@ int main(void){
 
 ![[Stm32/pic/image-1.png]]滤波电容有什么用
 放大器？
+
+![[Stm32/pic/image 1.png]]![[Stm32/pic/image 2.png]]![[image.png]]
