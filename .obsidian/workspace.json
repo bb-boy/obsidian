@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "OS"
             }
+          },
+          {
+            "id": "87b66b537d2ec163",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "machine learning/操作系统/操作系统真象还原 (郑纲).pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "操作系统真象还原 (郑纲)"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +91,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "8c78a30993349fc3",
@@ -166,7 +180,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 201.5
+    "width": 201.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,12 +195,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "316819bba7d84f4c",
+  "active": "87b66b537d2ec163",
   "lastOpenFiles": [
+    "machine learning/操作系统/OS.md",
     "machine learning/操作系统/操作系统真象还原 (郑纲).pdf",
     "machine learning/操作系统/shot/image.png",
     "machine learning/操作系统/shot/Pasted image 20250828145854.png",
-    "machine learning/操作系统/OS.md",
     "machine learning/操作系统/shot/Pasted image 20250828153135.png",
     "machine learning/操作系统/shot",
     "machine learning/操作系统/shot/Pasted image 20250828195132.png",
