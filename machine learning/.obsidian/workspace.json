@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "538b16eeeb41afac",
+        "id": "4994ae91aabc5845",
         "type": "tabs",
         "children": [
           {
@@ -186,6 +186,7 @@
   },
   "active": "76dfdd220d1de469",
   "lastOpenFiles": [
+    "操作系统/OS.md",
     "操作系统/Pasted image 20250828145854.png",
     "操作系统/shot/Pasted image 20250828195132.png",
     "操作系统/shot/Pasted image 20250828194309.png",
@@ -196,9 +197,7 @@
     "操作系统/shot/Pasted image 20250828161946.png",
     "操作系统/shot/Pasted image 20250828153135.png",
     "操作系统/shot/Pasted image 20250828145854.png",
-    "操作系统/shot/image.png",
     "操作系统/shot",
-    "操作系统/OS.md",
     "操作系统/操作系统真象还原 (郑纲).pdf",
     "Stm32/STM32.md",
     "GIT/GIT.md",

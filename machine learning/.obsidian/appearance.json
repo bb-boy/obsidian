@@ -1,5 +1,6 @@
 {
   "enabledCssSnippets": [
     "custom-blockquote"
-  ]
+  ],
+  "theme": "obsidian"
 }

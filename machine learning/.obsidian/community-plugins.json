@@ -4,5 +4,6 @@
   "obsidian-excalidraw-plugin",
   "image-converter",
   "text-extractor",
-  "editing-toolbar"
+  "editing-toolbar",
+  "toggle-dark-mode"
 ]
