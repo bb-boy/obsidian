@@ -11,34 +11,31 @@
             "id": "316819bba7d84f4c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "machine learning/操作系统/OS.md",
-                "mode": "source",
-                "source": false
+                "file": "machine learning/操作系统/操作系统真象还原 (郑纲).pdf",
+                "page": 208,
+                "left": -6,
+                "top": 233,
+                "zoom": 1.3042626793712477
               },
-              "icon": "lucide-file",
-              "title": "OS"
+              "icon": "lucide-file-text",
+              "title": "操作系统真象还原 (郑纲)"
             }
           },
           {
             "id": "87b66b537d2ec163",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "image",
               "state": {
-                "file": "machine learning/操作系统/操作系统真象还原 (郑纲).pdf",
-                "page": 201,
-                "left": -6,
-                "top": 589,
-                "zoom": 1.3127502889983924
+                "file": "machine learning/Stm32/image.png"
               },
-              "icon": "lucide-file-text",
-              "title": "操作系统真象还原 (郑纲)"
+              "icon": "lucide-image",
+              "title": "image"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -202,14 +199,14 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "87b66b537d2ec163",
+  "active": "316819bba7d84f4c",
   "lastOpenFiles": [
     "machine learning/操作系统/OS.md",
+    "machine learning/Stm32/image.png",
+    "machine learning/操作系统/操作系统真象还原 (郑纲).pdf",
     "machine learning/操作系统/image.png",
-    "machine learning/image.png",
     "machine learning/Stm32/pic/image 2.png",
     "machine learning/Stm32/pic/image 1.png",
-    "machine learning/操作系统/操作系统真象还原 (郑纲).pdf",
     "machine learning/操作系统/shot/image.png",
     "machine learning/操作系统/shot/Pasted image 20250828145854.png",
     "machine learning/操作系统/shot/Pasted image 20250828153135.png",
