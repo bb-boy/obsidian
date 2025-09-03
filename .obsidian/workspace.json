@@ -16,7 +16,7 @@
                 "file": "machine learning/操作系统/操作系统真象还原 (郑纲).pdf",
                 "page": 209,
                 "left": -22,
-                "top": 538,
+                "top": 423,
                 "zoom": 1.3042626793712477
               },
               "icon": "lucide-file-text",
@@ -37,8 +37,7 @@
               "title": "OS"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -70,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#NM",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -91,7 +90,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -202,10 +202,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "e4714a72c465955e",
+  "active": "316819bba7d84f4c",
   "lastOpenFiles": [
-    "machine learning/操作系统/操作系统真象还原 (郑纲).pdf",
     "machine learning/操作系统/OS.md",
+    "machine learning/操作系统/操作系统真象还原 (郑纲).pdf",
     "machine learning/Stm32/image.png",
     "machine learning/操作系统/image.png",
     "machine learning/Stm32/pic/image 2.png",
