@@ -58,7 +58,7 @@
 ![[操作系统/image.png]]![[Pasted image 20250828145854.png]]
 =======
 ![[machine learning/操作系统/shot/image.png]]![[Pasted image 20250828145854.png]]
->>>>>>> 5443ecd1a58d229da9f2ba470c3a8e3a8457a491
+
 
 ## 保护模式入门
 开机时，32 位的 CPU 是先处于实模式，之后再进入保护模式的
