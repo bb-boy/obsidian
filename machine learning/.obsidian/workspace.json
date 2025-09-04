@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "操作系统/OS.md",
+                "file": "Stm32/STM32.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OS"
+              "title": "STM32"
             }
           }
         ]
@@ -186,20 +186,19 @@
   },
   "active": "76dfdd220d1de469",
   "lastOpenFiles": [
+    "Stm32/pic/image 3.png",
+    "Stm32/STM32.md",
     "操作系统/OS.md",
+    "操作系统/image.png",
+    "操作系统/操作系统真象还原 (郑纲).pdf",
+    "操作系统/shot/image 1.png",
     "操作系统/Pasted image 20250828145854.png",
     "操作系统/shot/Pasted image 20250828195132.png",
     "操作系统/shot/Pasted image 20250828194309.png",
     "操作系统/shot/Pasted image 20250828194004.png",
     "操作系统/shot/Pasted image 20250828192737.png",
     "操作系统/shot/Pasted image 20250828162000.png",
-    "操作系统/shot/Pasted image 20250828154726.png",
-    "操作系统/shot/Pasted image 20250828161946.png",
-    "操作系统/shot/Pasted image 20250828153135.png",
-    "操作系统/shot/Pasted image 20250828145854.png",
     "操作系统/shot",
-    "操作系统/操作系统真象还原 (郑纲).pdf",
-    "Stm32/STM32.md",
     "GIT/GIT.md",
     "GIT",
     "EPICS/Notes.md",
