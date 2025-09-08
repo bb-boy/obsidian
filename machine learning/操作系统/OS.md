@@ -55,7 +55,7 @@
 - **小端序**：因为x86平台是小端序，所以存储顺序是低字节在前（即`0x55`，再是`0xAA`）。
 
 <<<<<<< HEAD
-![[操作系统/image.png]]![[Pasted image 20250828145854.png]]
+![[操作系统/shot/image 1.png]]![[Pasted image 20250828145854.png]]
 =======
 ![[machine learning/操作系统/shot/image.png]]![[Pasted image 20250828145854.png]]
 
