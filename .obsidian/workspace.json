@@ -184,8 +184,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 201.5,
-    "collapsed": true
+    "width": 201.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,7 +201,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "e4714a72c465955e",
+  "active": "17b439a083a90183",
   "lastOpenFiles": [
     "machine learning/操作系统/操作系统真象还原 (郑纲).pdf",
     "machine learning/操作系统/OS.md",
