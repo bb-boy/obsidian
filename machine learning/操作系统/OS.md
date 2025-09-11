@@ -828,3 +828,20 @@ ELF 有“链接视图（sections/节头表）”和“执行视图（segments/�
 * **映射 (页表)**: 你去邮局（设置 MMU）登记：“所有寄往‘我的理想乡’的信件，请全部送到‘幸福路 123 号’”。
 * **跳转**: 你告诉朋友：“来‘我的理想乡’找我玩！” 朋友（CPU）根据邮局的登记信息，准确地找到了你的新家“幸福路 123 号”。
 
+![[Pasted image 20250911211011.png]]![[Pasted image 20250911211022.png]]**readelf -l 的作用**
+
+-l 表示 显示 Program Headers（也叫 segment headers）。
+
+这个选项会把 ELF 文件的 程序头表 (Program Header Table, PHT) 打印出来，告诉你：
+
+每个段 (Segment) 的类型 (Type，如 LOAD, DYNAMIC, INTERP 等)
+
+段在文件中的偏移 (Offset)
+
+映射到内存时的虚拟地址 (VirtAddr) 和物理地址 (PhysAddr)
+
+文件中占用大小 (FileSiz) 和内存中占用大小 (MemSiz)
+
+段的访问权限 (Flg → R/W/X)
+
+对齐方式 (Align)
