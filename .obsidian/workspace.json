@@ -14,10 +14,10 @@
               "type": "pdf",
               "state": {
                 "file": "machine learning/操作系统/操作系统真象还原 (郑纲).pdf",
-                "page": 236,
-                "left": -6,
-                "top": 73,
-                "zoom": 1.3268963050436338
+                "page": 238,
+                "left": -3,
+                "top": 395,
+                "zoom": 1.7512767864008727
               },
               "icon": "lucide-file-text",
               "title": "操作系统真象还原 (郑纲)"
@@ -94,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "8c78a30993349fc3",
@@ -202,9 +203,10 @@
   "active": "316819bba7d84f4c",
   "lastOpenFiles": [
     "machine learning/操作系统/OS.md",
+    "Pasted image 20250911222035.png",
+    "machine learning/操作系统/操作系统真象还原 (郑纲).pdf",
     "machine learning/操作系统/shot/Pasted image 20250911211022.png",
     "machine learning/操作系统/shot/Pasted image 20250911211011.png",
-    "machine learning/操作系统/操作系统真象还原 (郑纲).pdf",
     "Untitled.base",
     "machine learning/Stm32/STM32.md",
     "machine learning/操作系统/shot/image 1.png",
@@ -214,7 +216,6 @@
     "machine learning/操作系统/image.png",
     "machine learning/Stm32/pic/image 2.png",
     "machine learning/Stm32/pic/image 1.png",
-    "machine learning/操作系统/shot/image.png",
     "machine learning/操作系统/shot",
     "Untitled 1.base",
     "machine learning/EPICS/Notes.md",
