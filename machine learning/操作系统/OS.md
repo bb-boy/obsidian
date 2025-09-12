@@ -848,4 +848,4 @@ ELF 有“链接视图（sections/节头表）”和“执行视图（segments/�
 
 
 
-![[Pasted image 20250911222035.png]]
+![[Pasted image 20250911222035.png]]![[Pasted image 20250912141814.png]]
