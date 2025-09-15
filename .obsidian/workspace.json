@@ -15,9 +15,9 @@
               "state": {
                 "file": "machine learning/操作系统/操作系统真象还原 (郑纲).pdf",
                 "page": 250,
-                "left": -7,
-                "top": 722,
-                "zoom": 1.3268963050436335
+                "left": -5,
+                "top": 691,
+                "zoom": 1.47967327833224
               },
               "icon": "lucide-file-text",
               "title": "操作系统真象还原 (郑纲)"
@@ -80,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "8c78a30993349fc3",
@@ -215,8 +216,8 @@
           }
         ],
         "direction": "vertical",
-        "x": 793,
-        "y": 35,
+        "x": 1107,
+        "y": 81,
         "width": 1184,
         "height": 1339,
         "maximize": false,
