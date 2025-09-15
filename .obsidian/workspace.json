@@ -11,16 +11,12 @@
             "id": "835f565242f56d50",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "image",
               "state": {
-                "file": "machine learning/操作系统/操作系统真象还原 (郑纲).pdf",
-                "page": 244,
-                "left": -5,
-                "top": 150,
-                "zoom": 1.4796732783322397
+                "file": "machine learning/操作系统/shot/tss结构.png"
               },
-              "icon": "lucide-file-text",
-              "title": "操作系统真象还原 (郑纲)"
+              "icon": "lucide-image",
+              "title": "tss结构"
             }
           }
         ]
@@ -80,8 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "8c78a30993349fc3",
@@ -225,12 +220,14 @@
       }
     ]
   },
-  "active": "ee53b6afe8552411",
+  "active": "46a93b90fb0224c1",
   "lastOpenFiles": [
+    "Pasted image 20250915223042.png",
+    "machine learning/操作系统/shot/tss结构.png",
+    "machine learning/操作系统/shot/段描述符.png",
+    "machine learning/操作系统/shot/选择子.png",
     "machine learning/操作系统/操作系统真象还原 (郑纲).pdf",
     "machine learning/操作系统/OS.md",
-    "Pasted image 20250915223135.png",
-    "Pasted image 20250915223042.png",
     "machine learning/单词.md",
     "Pasted image 20250915205451.png",
     "machine learning/操作系统/shot/GDT寄存器.png",
@@ -239,7 +236,6 @@
     "machine learning/操作系统/shot/Pasted image 20250914213135.png",
     "machine learning/操作系统/shot/Pasted image 20250912141814.png",
     "machine learning/操作系统/shot/Pasted image 20250911222035.png",
-    "machine learning/操作系统/shot/Pasted image 20250911211022.png",
     "Untitled.base",
     "machine learning/Stm32/STM32.md",
     "machine learning/操作系统/shot",
