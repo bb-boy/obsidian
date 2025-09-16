@@ -14,10 +14,10 @@
               "type": "pdf",
               "state": {
                 "file": "machine learning/操作系统/操作系统真象还原 (郑纲).pdf",
-                "page": 256,
-                "left": 924,
-                "top": 621,
-                "zoom": 1.7020754586786686
+                "page": 254,
+                "left": -4,
+                "top": 23,
+                "zoom": 1.6748882997565695
               },
               "icon": "lucide-file-text",
               "title": "操作系统真象还原 (郑纲)"
@@ -227,8 +227,8 @@
   },
   "active": "ee53b6afe8552411",
   "lastOpenFiles": [
-    "machine learning/操作系统/OS.md",
     "machine learning/操作系统/操作系统真象还原 (郑纲).pdf",
+    "machine learning/操作系统/OS.md",
     "machine learning/操作系统/shot/特权级转移栈变化过程.png",
     "Pasted image 20250915223042.png",
     "machine learning/操作系统/shot/tss结构.png",
