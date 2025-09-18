@@ -14,9 +14,9 @@
               "type": "pdf",
               "state": {
                 "file": "machine learning/操作系统/操作系统真象还原 (郑纲).pdf",
-                "page": 274,
+                "page": 277,
                 "left": -4,
-                "top": 364,
+                "top": 454,
                 "zoom": 1.6748882997565697
               },
               "icon": "lucide-file-text",
@@ -228,6 +228,8 @@
   "active": "835f565242f56d50",
   "lastOpenFiles": [
     "machine learning/操作系统/OS.md",
+    "Pasted image 20250918220755.png",
+    "Pasted image 20250918220736.png",
     "machine learning/操作系统/操作系统真象还原 (郑纲).pdf",
     "machine learning/单词.md",
     "machine learning/操作系统/shot/Pasted image 20250917222925.png",
@@ -238,8 +240,6 @@
     "machine learning/操作系统/shot/tss.png",
     "machine learning/操作系统/shot/eflags 寄存器.png",
     "machine learning/操作系统/shot/特权级转移栈变化过程.png",
-    "Pasted image 20250915223042.png",
-    "machine learning/操作系统/shot/段描述符.png",
     "Untitled.base",
     "machine learning/Stm32/STM32.md",
     "machine learning/操作系统/shot",

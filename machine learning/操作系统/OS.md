@@ -1205,3 +1205,15 @@ I/O 位图只是在数值上 CPL > IOPL，即当前特权级比 IOPL 低时才�
 
 
 ### 实现自己的打印函数
+#### 显存
+![[Pasted image 20250918220736.png]]![[Pasted image 20250918220755.png]]
+**I/OAS (Input/Output Address Select) 的作用**
+- 当 I/OAS = 0：
+	CRT Controller Registers → 端口 3B4h/3B5h
+	Input Status #1 → 3BAh
+	Feature Control 写端口 → 3BAh
+- 当 I/OAS = 1：
+	CRT Controller Registers → 端口 3D4h/3D5h
+	Input Status #1 → 3DAh
+	Feature Control 写端口 → 3DAh
+**默认情况下，Miscellaneous Output Register 的值为 0x67，即 I/OAS = 1，使用 彩色/graphics**
