@@ -11,12 +11,16 @@
             "id": "835f565242f56d50",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "pdf",
               "state": {
-                "file": "machine learning/操作系统/shot/image.png"
+                "file": "machine learning/操作系统/操作系统真象还原 (郑纲).pdf",
+                "page": 273,
+                "left": -4,
+                "top": 359,
+                "zoom": 1.6748882997565697
               },
-              "icon": "lucide-image",
-              "title": "image"
+              "icon": "lucide-file-text",
+              "title": "操作系统真象还原 (郑纲)"
             }
           }
         ]
@@ -76,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "8c78a30993349fc3",
@@ -220,15 +225,15 @@
       }
     ]
   },
-  "active": "835f565242f56d50",
+  "active": "ee53b6afe8552411",
   "lastOpenFiles": [
+    "machine learning/操作系统/操作系统真象还原 (郑纲).pdf",
     "machine learning/操作系统/OS.md",
+    "machine learning/操作系统/shot/Pasted image 20250917222925.png",
+    "machine learning/操作系统/shot/Pasted image 20250917214908.png",
     "machine learning/操作系统/shot/image.png",
     "machine learning/操作系统/shot/image 1.png",
     "machine learning/操作系统/shot/tss结构.png",
-    "machine learning/操作系统/shot/Pasted image 20250917222925.png",
-    "machine learning/操作系统/shot/Pasted image 20250917214908.png",
-    "machine learning/操作系统/操作系统真象还原 (郑纲).pdf",
     "machine learning/操作系统/shot/tss.png",
     "machine learning/操作系统/shot/eflags 寄存器.png",
     "machine learning/操作系统/shot/特权级转移栈变化过程.png",
