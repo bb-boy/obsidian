@@ -1229,4 +1229,12 @@ I/O 位图只是在数值上 CPL > IOPL，即当前特权级比 IOPL 低时才�
 
 ![[Pasted image 20250928224858.png]]`
 
-使用dd命令时，没有加上 `conv = notrunc` 参数导致磁盘
+使用dd命令时，没有加上 `conv = notrunc` 参数，对**普通文件**（比如 `hd60M.img` 这样的镜像），dd 默认会以**截断**方式打开（相当于 `O_TRUNC`）。  这会把文件长度先清零，再开始写，会让镜像文件变小。
+
+<font  size='5' color="#e36c09">如何处理？</font>
+使用提供的**bximage**重新创建一个磁盘镜像，创建过程遇到权限不足问题，使用一下命令修改权限
+
+```
+sudo chown -R "$USER":"$USER" /home/opt
+
+```
