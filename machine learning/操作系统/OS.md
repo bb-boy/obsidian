@@ -1225,7 +1225,8 @@ I/O 位图只是在数值上 CPL > IOPL，即当前特权级比 IOPL 低时才�
 -----------------
 
 
-<font color="#e36c09">ERROR</font>
+<font  size='5' color="#e36c09">ERROR</font>
+
 ![[Pasted image 20250928224858.png]]`
 
-====
+使用dd命令时，没有加上 `conv = notrunc` 参数导致磁盘
