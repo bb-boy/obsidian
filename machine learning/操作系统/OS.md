@@ -1232,9 +1232,20 @@ I/O 位图只是在数值上 CPL > IOPL，即当前特权级比 IOPL 低时才�
 使用dd命令时，没有加上 `conv = notrunc` 参数，对**普通文件**（比如 `hd60M.img` 这样的镜像），dd 默认会以**截断**方式打开（相当于 `O_TRUNC`）。  这会把文件长度先清零，再开始写，会让镜像文件变小。
 
 <font  size='5' color="#e36c09">如何处理？</font>
-使用提供的**bximage**重新创建一个磁盘镜像，创建过程遇到权限不足问题，使用一下命令修改权限
+使用提供的**bximage**重新创建一个磁盘镜像，创建过程遇到权限不足问题，使用以下命令修改权限
 
 ```
 sudo chown -R "$USER":"$USER" /home/opt
+- chown：change owner，修改所有者/组。
+    
+-R：递归，对目标目录及其所有子目录、文件都生效。
+    
+- "$USER":"$USER`：把所有者设为当前用户，把所属组也设为当前用户同名的组
+  
+  
+写 MBR 到 0 号扇区
+dd if=mbr.bin    of=hd40.img bs=512 count=1 conv=notrunc
+# 写 loader 到 2 号扇区（第 1 扇区留空）
+dd if=loader.bin of=hd40.img bs=512 count=1 seek=2 conv=notrunc
 
 ```
