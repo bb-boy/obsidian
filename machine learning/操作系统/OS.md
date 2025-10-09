@@ -1264,3 +1264,9 @@ dd if=mbr.bin    of=hd40.img bs=512 count=1 conv=notrunc
 dd if=loader.bin of=hd40.img bs=512 count=1 seek=2 conv=notrunc
 
 ```
+
+
+
+
+### 实现字符串打印
+
