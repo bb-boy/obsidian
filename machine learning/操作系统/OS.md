@@ -1294,3 +1294,7 @@ dd if=loader.bin of=hd40.img bs=512 count=1 seek=2 conv=notrunc
 
 ### 内联汇编
  AT&T 风格的汇编![[Pasted image 20251010001029.png]]
+
+#### 扩展内联汇编
+
+**格式：asm [volatile] (“assembly code”:output : input : clobber/modify)**
