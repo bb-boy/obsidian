@@ -1268,7 +1268,7 @@ dd if=loader.bin of=hd40.img bs=512 count=1 seek=2 conv=notrunc
 
 
 
-### 实现字符串打印
+#### 实现字符串打印
 
 > [!PDF|important] [[操作系统真象还原 (郑纲).pdf#page=288&selection=255,3,267,4&color=important|操作系统真象还原 (郑纲), p.288]]
 >  32 位保护模式下的栈，要么压入 16 位操作数，要么压入 32 位操作数
