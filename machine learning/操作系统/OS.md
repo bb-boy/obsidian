@@ -1288,3 +1288,4 @@ dd if=loader.bin of=hd40.img bs=512 count=1 seek=2 conv=notrunc
         
     - 执行 `MOV AX, BX` -> 16 位寄存器之间传送数据
 
+![[Pasted image 20251009232523.png]]
