@@ -1768,3 +1768,15 @@ NT 位表示 Nest Task Flag，即任务嵌套标志位，也就是用来标记�
 
 ##### **OCW3**
 ![[image-7.png]]
+
+
+|位 (D#)|名称|含义|
+|--:|---|---|
+|D7|—（未用）|保留，写 0|
+|D6|**ESMM**|Enable Special Mask Mode（使能特殊屏蔽模式的开关）|
+|D5|**SMM**|Special Mask Mode（特殊屏蔽模式位，只有 ESMM=1 时有效）|
+|D4|—|OCW3 标识位（高位），固定为 0|
+|D3|—|OCW3 标识位（低位），固定为 1 —— `D4,D3 = 01` 表示这是 OCW3|
+|D2|**P**|Poll command（查询/轮询开关）——置 1 可进入查询模式|
+|D1|**RR**|Read Register（读寄存器命令使能）——置 1 才允许读取寄存器|
+|D0|**RIS**|Read Interrupt register Select（选择要读的寄存器）：`0` = 读 IRR，`1` = 读 ISR|
