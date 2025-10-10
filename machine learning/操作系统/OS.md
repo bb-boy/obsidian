@@ -1725,3 +1725,6 @@ NT 位表示 Nest Task Flag，即任务嵌套标志位，也就是用来标记�
 |      1 | **AEOI**（Auto EOI）                  | 自动结束中断（Auto End Of Interrupt） |           0（典型） | 1 = 自动 EOI（8259A 在适当时刻自动清 ISR）；0 = 非自动，需软件/CPU 在 ISR 结束时显式发送 EOI（OCW2）来清 ISR。 |
 |      0 | **µPM / uPM**（microProcessor mode）  | 微处理器兼容模式选择                    |       1（x86 必填） | 0 = 兼容 8080/8085；1 = 8086/88 / x86 模式。x86 系统应置 1。                             |
 ![[image-4.png]]
+
+
+**OCW1**
