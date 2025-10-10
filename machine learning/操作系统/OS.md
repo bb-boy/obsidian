@@ -1599,6 +1599,4 @@ NT 位表示 Nest Task Flag，即任务嵌套标志位，也就是用来标记�
 
 ![[Pasted image 20251010210916.png]]![[Pasted image 20251010212449.png]]、
 
-![[Pasted image 20251010213459.png]]
-
-![[Pasted image 20251010213536.png]]![[Pasted image 20251010213548.png]]
+<font size=5 color="#ff0000">中断处理流程</font>：
