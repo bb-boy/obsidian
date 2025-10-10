@@ -11,12 +11,14 @@
             "id": "835f565242f56d50",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "machine learning/操作系统/shot/Pasted image 20251010015533.png"
+                "file": "machine learning/操作系统/OS.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20251010015533"
+              "icon": "lucide-file",
+              "title": "OS"
             }
           }
         ]
@@ -76,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "8c78a30993349fc3",
@@ -181,13 +184,52 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
+  "floating": {
+    "id": "fef37d81865a5385",
+    "type": "floating",
+    "children": [
+      {
+        "id": "a45efddbb72994b0",
+        "type": "window",
+        "children": [
+          {
+            "id": "9617cfc950923487",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "146469b21329eead",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "machine learning/操作系统/操作系统真象还原 (郑纲).pdf",
+                    "page": 1,
+                    "zoom": 1
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "操作系统真象还原 (郑纲)"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 1330,
+        "y": 9,
+        "width": 1238,
+        "height": 1352,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
   "active": "835f565242f56d50",
   "lastOpenFiles": [
+    "machine learning/操作系统/操作系统真象还原 (郑纲).pdf",
     "machine learning/操作系统/OS.md",
     "machine learning/操作系统/shot/Pasted image 20251010015533.png",
     "Untitled.base",
     "Untitled 1.base",
-    "machine learning/操作系统/操作系统真象还原 (郑纲).pdf",
     "machine learning/操作系统/shot/Pasted image 20251010014640.png",
     "machine learning/操作系统/shot/Pasted image 20251010001029.png",
     "machine learning/操作系统/shot/Pasted image 20251009232523.png",
