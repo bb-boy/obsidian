@@ -1914,6 +1914,4 @@ nasm -E input.S > output.pp
 
 - **晶振 (Crystal Oscillator)**：它不是一个复杂的芯片，而是一个非常精确的频率产生元件，通常是石英晶体。它看起来像一个小小的金属罐子，焊在主板上，一般就在处理器（CPU）的旁边。
     
-    !([https://i.imgur.com/k6lP7i7.png](https://www.google.com/search?q=https://i.imgur.com/k6lP7i7.png)) _(这就是晶振，它为处理器提供一个极其稳定的“心跳”)_
-    
 - **它的作用**：为处理器提供一个**高精度、高稳定性的“基准心跳”**。处理器内部所有的运算和操作，都依赖这个心跳信号来同步
