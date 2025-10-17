@@ -203,10 +203,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "machine learning/操作系统/操作系统真象还原 (郑纲).pdf",
-                    "page": 366,
-                    "left": -3,
-                    "top": 592,
-                    "zoom": 1.7
+                    "page": 369,
+                    "left": 0,
+                    "top": 660,
+                    "zoom": 1.7236389146585502
                   },
                   "icon": "lucide-file-text",
                   "title": "操作系统真象还原 (郑纲)"
@@ -225,10 +225,10 @@
       }
     ]
   },
-  "active": "146469b21329eead",
+  "active": "835f565242f56d50",
   "lastOpenFiles": [
-    "machine learning/操作系统/OS.md",
     "machine learning/操作系统/操作系统真象还原 (郑纲).pdf",
+    "machine learning/操作系统/OS.md",
     "image-12.png",
     "image-11.png",
     "image-10.png",
