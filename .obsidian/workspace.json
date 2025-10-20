@@ -184,51 +184,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "floating": {
-    "id": "fef37d81865a5385",
-    "type": "floating",
-    "children": [
-      {
-        "id": "a45efddbb72994b0",
-        "type": "window",
-        "children": [
-          {
-            "id": "9617cfc950923487",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "146469b21329eead",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "machine learning/操作系统/操作系统真象还原 (郑纲).pdf",
-                    "page": 369,
-                    "left": -4,
-                    "top": 580,
-                    "zoom": 1.6961073238244315
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "操作系统真象还原 (郑纲)"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 1270,
-        "y": 11,
-        "width": 1251,
-        "height": 1392,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "146469b21329eead",
+  "active": "835f565242f56d50",
   "lastOpenFiles": [
-    "machine learning/操作系统/OS.md",
     "machine learning/操作系统/操作系统真象还原 (郑纲).pdf",
+    "machine learning/操作系统/OS.md",
     "image-12.png",
     "image-11.png",
     "image-10.png",
