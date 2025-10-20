@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e020761a1e061aa9",
+        "id": "84d64e89b085c86c",
         "type": "tabs",
         "children": [
           {
-            "id": "835f565242f56d50",
+            "id": "8d361301c95d6e36",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -184,22 +184,63 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
+  "floating": {
+    "id": "7057fce87135f173",
+    "type": "floating",
+    "children": [
+      {
+        "id": "4696d9b23b9976a3",
+        "type": "window",
+        "children": [
+          {
+            "id": "528d6af03dda0a62",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "835f565242f56d50",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "machine learning/操作系统/操作系统真象还原 (郑纲).pdf",
+                    "page": 1,
+                    "left": 923,
+                    "top": 289,
+                    "zoom": 1.7063881498746447
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "操作系统真象还原 (郑纲)"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 1301,
+        "y": 0,
+        "width": 1239,
+        "height": 1392,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
   "active": "835f565242f56d50",
   "lastOpenFiles": [
-    "machine learning/操作系统/操作系统真象还原 (郑纲).pdf",
     "machine learning/操作系统/OS.md",
-    "image-12.png",
-    "image-11.png",
-    "image-10.png",
-    "image-9.png",
-    "image-8.png",
-    "image-7.png",
-    "image-6.png",
-    "image-5.png",
-    "image-4.png",
-    "image-3.png",
-    "Untitled 1.base",
-    "Untitled.base",
+    "machine learning/操作系统/操作系统真象还原 (郑纲).pdf",
+    "machine learning/操作系统/Untitled 1.base",
+    "machine learning/操作系统/Untitled.base",
+    "machine learning/操作系统/shot/Untitled diagram-2025-10-10-134704.png",
+    "machine learning/操作系统/shot/Untitled diagram-2025-10-10-145752.png",
+    "machine learning/操作系统/shot/image 3.png",
+    "machine learning/操作系统/shot/image.png",
+    "machine learning/操作系统/shot/image-12.png",
+    "machine learning/操作系统/shot/image-11.png",
+    "machine learning/操作系统/shot/image-10.png",
+    "machine learning/操作系统/shot/image-9.png",
+    "machine learning/操作系统/shot/image-8.png",
+    "machine learning/操作系统/shot/image-7.png",
     "machine learning/单词.md",
     "machine learning/Stm32/STM32.md",
     "machine learning/操作系统/shot",
