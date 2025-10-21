@@ -1972,3 +1972,6 @@ nasm -E input.S > output.pp
 
 #### 8.1.2 makefile 基本语法
 
+#### 8.2.2 实现 ASSERT
+
+
