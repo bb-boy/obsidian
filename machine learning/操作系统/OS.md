@@ -1974,4 +1974,7 @@ nasm -E input.S > output.pp
 
 #### 8.2.2 实现 ASSERT
 
+### 8.3 实现字符串操作函数
+
+
 
