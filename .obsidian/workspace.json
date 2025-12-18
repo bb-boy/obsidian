@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "8c78a30993349fc3",
@@ -184,59 +183,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "floating": {
-    "id": "7057fce87135f173",
-    "type": "floating",
-    "children": [
-      {
-        "id": "4696d9b23b9976a3",
-        "type": "window",
-        "children": [
-          {
-            "id": "528d6af03dda0a62",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "835f565242f56d50",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "machine learning/操作系统/操作系统真象还原 (郑纲).pdf",
-                    "page": 1,
-                    "zoom": 1
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "操作系统真象还原 (郑纲)"
-                }
-              },
-              {
-                "id": "53c06e4f94ae19d3",
-                "type": "leaf",
-                "state": {
-                  "type": "release-notes",
-                  "state": {
-                    "currentVersion": "1.10.3"
-                  },
-                  "icon": "lucide-book-up",
-                  "title": "Release Notes 1.10.3"
-                }
-              }
-            ],
-            "currentTab": 1
-          }
-        ],
-        "direction": "vertical",
-        "x": 1301,
-        "y": 0,
-        "width": 1239,
-        "height": 1392,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "53c06e4f94ae19d3",
+  "active": "8d361301c95d6e36",
   "lastOpenFiles": [
     "machine learning/操作系统/OS.md",
     "machine learning/操作系统/操作系统真象还原 (郑纲).pdf",
