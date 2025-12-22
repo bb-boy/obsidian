@@ -16,7 +16,7 @@
                 "file": "machine learning/程序员的修养/程序员的自我修养 .pdf",
                 "page": 20,
                 "left": -4,
-                "top": 550,
+                "top": 50,
                 "zoom": 1.5
               },
               "icon": "lucide-file-text",
@@ -228,9 +228,9 @@
   },
   "active": "8d361301c95d6e36",
   "lastOpenFiles": [
-    "machine learning/程序员的修养/程序员的自我修养  1.pdf",
     "machine learning/程序员的修养/未命名.md",
     "machine learning/程序员的修养/程序员的自我修养 .pdf",
+    "machine learning/程序员的修养/程序员的自我修养  1.pdf",
     "kafka/Kafka权威指南.pdf",
     "machine learning/程序员的修养",
     "machine learning/操作系统/OS.md",
@@ -254,7 +254,6 @@
     "machine learning/EPICS/Notes.md",
     "machine learning/FPGA/FPGA.md",
     "machine learning/GIT/GIT.md",
-    "machine learning/GIT",
     "machine learning/GIT",
     "machine learning/操作系统/Notes.md",
     "machine learning/托卡马克/托卡马克.md",
