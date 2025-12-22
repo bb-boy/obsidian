@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4994ae91aabc5845",
+        "id": "1cf6d50f70519195",
         "type": "tabs",
         "children": [
           {
-            "id": "76dfdd220d1de469",
+            "id": "1ee1fd795e64e169",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "25d4a044c6a6f0c4",
@@ -184,37 +185,39 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "64eb5020b63ca271",
+  "active": "1ee1fd795e64e169",
   "lastOpenFiles": [
-    "操作系统/shot/段描述符高32位.png",
-    "操作系统/OS.md",
-    "操作系统/shot/image.png",
-    "操作系统/shot/不用模式下寻址方式.png",
-    "操作系统/shot/image 1.png",
-    "操作系统/shot/不用模式下反转指令.png",
-    "操作系统/shot/计算机启动流程.png",
-    "操作系统/shot/不同模式段寄存器作用.png",
-    "操作系统/shot/机器码格式.png",
-    "操作系统/shot/段描述符.png",
-    "操作系统/shot/GDT寄存器.png",
-    "操作系统/操作系统真象还原 (郑纲).pdf",
-    "Stm32/STM32.md",
-    "操作系统/shot",
-    "GIT/GIT.md",
-    "GIT",
+    "操作系统/shot/image-9.png",
+    "操作系统/shot/image-8.png",
+    "操作系统/shot/image-7.png",
+    "操作系统/shot/image-6.png",
+    "操作系统/shot/image-5.png",
+    "操作系统/shot/image-4.png",
+    "操作系统/shot/image-3.png",
+    "操作系统/shot/image-2.png",
+    "操作系统/shot/image-12.png",
+    "操作系统/shot/image-11.png",
+    "操作系统/shot/image-10.png",
+    "托卡马克/托卡马克.md",
+    "托卡马克/托卡马克 第四版 -- 约翰·韦森  (John Wesson) -- Di 1 ban, Beijing, 2021 -- 清华大学出版社.pdf",
+    "托卡马克/回旋管运行实验研究.pdf",
+    "托卡马克/140GHz回旋管理论与实验研究_马国武.pdf",
+    "程序员的自我修养/程序员的自我修养 .pdf",
+    "托卡马克",
+    "EPICS/PIC",
     "EPICS/Notes.md",
+    "EPICS",
+    "操作系统/OS.md",
+    "操作系统/操作系统真象还原 (郑纲).pdf",
+    "GIT/GIT.md",
+    "程序员的自我修养/程序员的自我修养：链接、装载与库 1.epub",
+    "GIT/程序员的自我修养：链接、装载与库.epub",
+    "单词.md",
+    "Stm32/STM32.md",
     "EPICS/未命名.md",
     "FPGA/FPGA.md",
-    "EPICS/PIC",
-    "EPICS/Step1.Installation.pdf",
-    "EPICS/Step8.Datasave Application.pdf",
-    "EPICS/Step7.Multi-Channel and Record.pdf",
-    "EPICS/Step6.Set and Response.pdf",
-    "EPICS/Step5.IOC and NIDAQmx.pdf",
-    "EPICS/Step4.DAQmx.pdf",
     "FPGA/NOTES.md",
     "智能机器人/智能机器人.md",
-    "托卡马克/托卡马克.md",
     "区块链/概念解释.md",
     "机器学习/Notes.md",
     "噶时光的.md",
@@ -230,7 +233,6 @@
     "图片URL.md",
     "智能机器人技术.md",
     "2025-03-12.md",
-    "欢迎.md",
-    "咖喱鸡.md"
+    "欢迎.md"
   ]
 }
