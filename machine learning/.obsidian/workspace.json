@@ -11,14 +11,16 @@
             "id": "1ee1fd795e64e169",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "操作系统/OS.md",
-                "mode": "source",
-                "source": false
+                "file": "程序员的修养/程序员的自我修养 .pdf",
+                "page": 48,
+                "left": -14,
+                "top": 247,
+                "zoom": 1.1063029162746942
               },
-              "icon": "lucide-file",
-              "title": "OS"
+              "icon": "lucide-file-text",
+              "title": "程序员的自我修养"
             }
           }
         ]
@@ -184,8 +186,11 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "64eb5020b63ca271",
+  "active": "1ee1fd795e64e169",
   "lastOpenFiles": [
+    "操作系统/OS.md",
+    "程序员的修养/程序员的自我修养 .pdf",
+    "程序员的修养",
     "操作系统/shot/image-9.png",
     "操作系统/shot/image-8.png",
     "操作系统/shot/image-7.png",
@@ -196,7 +201,6 @@
     "操作系统/shot/image-2.png",
     "操作系统/shot/image-12.png",
     "操作系统/shot/image-11.png",
-    "操作系统/shot/image-10.png",
     "托卡马克/托卡马克.md",
     "托卡马克/托卡马克 第四版 -- 约翰·韦森  (John Wesson) -- Di 1 ban, Beijing, 2021 -- 清华大学出版社.pdf",
     "托卡马克/回旋管运行实验研究.pdf",
@@ -206,11 +210,8 @@
     "EPICS/PIC",
     "EPICS/Notes.md",
     "EPICS",
-    "操作系统/OS.md",
     "操作系统/操作系统真象还原 (郑纲).pdf",
     "GIT/GIT.md",
-    "程序员的自我修养/程序员的自我修养：链接、装载与库 1.epub",
-    "GIT/程序员的自我修养：链接、装载与库.epub",
     "单词.md",
     "Stm32/STM32.md",
     "EPICS/未命名.md",
