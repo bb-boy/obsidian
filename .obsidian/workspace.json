@@ -14,10 +14,10 @@
               "type": "pdf",
               "state": {
                 "file": "kafka/Kafka权威指南.pdf",
-                "page": 37,
+                "page": 42,
                 "left": -10,
-                "top": 788,
-                "zoom": 1.4301470588235294
+                "top": 409,
+                "zoom": 1.4301470588235299
               },
               "icon": "lucide-file-text",
               "title": "Kafka权威指南"
@@ -189,6 +189,8 @@
   },
   "active": "8d361301c95d6e36",
   "lastOpenFiles": [
+    "machine learning/程序员的修养/程序员的自我修养 .pdf",
+    "machine learning/程序员的修养",
     "machine learning/操作系统/OS.md",
     "kafka/Kafka权威指南.pdf",
     "kafka",
@@ -215,7 +217,6 @@
     "machine learning/GIT",
     "machine learning/操作系统/Notes.md",
     "machine learning/EPICS/PIC",
-    "machine learning/操作系统",
     "machine learning/托卡马克/托卡马克.md",
     "machine learning/区块链/概念解释.md",
     "machine learning/电子电力控制/论文汇报.md"
