@@ -11,14 +11,16 @@
             "id": "8423d3f386ffc974",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "程序员的修养/未命名.md",
-                "mode": "source",
-                "source": false
+                "file": "程序员的修养/程序员的自我修养 .pdf",
+                "page": 1,
+                "left": -43,
+                "top": 794,
+                "zoom": 0.36519607843137253
               },
-              "icon": "lucide-file",
-              "title": "未命名"
+              "icon": "lucide-file-text",
+              "title": "程序员的自我修养"
             }
           }
         ]
@@ -225,8 +227,9 @@
   },
   "active": "8423d3f386ffc974",
   "lastOpenFiles": [
-    "程序员的修养/程序员的自我修养 .pdf",
+    "程序员的修养/程序员的自我修养  1.pdf",
     "程序员的修养/未命名.md",
+    "程序员的修养/程序员的自我修养 .pdf",
     "操作系统/OS.md",
     "程序员的修养",
     "操作系统/shot/image-9.png",
@@ -248,7 +251,6 @@
     "EPICS/PIC",
     "EPICS/Notes.md",
     "EPICS",
-    "操作系统/操作系统真象还原 (郑纲).pdf",
     "GIT/GIT.md",
     "单词.md",
     "Stm32/STM32.md",
