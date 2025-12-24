@@ -14,13 +14,23 @@
               "type": "pdf",
               "state": {
                 "file": "machine learning/操作系统/操作系统真象还原 (郑纲).pdf",
-                "page": 389,
-                "left": -7,
-                "top": 669,
-                "zoom": 1.2264595911224205
+                "page": 1,
+                "zoom": 1
               },
               "icon": "lucide-file-text",
               "title": "操作系统真象还原 (郑纲)"
+            }
+          },
+          {
+            "id": "0629776c82e3aeec",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.6"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.6"
             }
           },
           {
@@ -202,15 +212,15 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "3ad0fe101f564cca",
+  "active": "0629776c82e3aeec",
   "lastOpenFiles": [
+    "machine learning/操作系统/OS.md",
     "machine learning/操作系统/操作系统真象还原 (郑纲).pdf",
     "machine learning/程序员的修养/程序员的自我修养 .pdf",
     "machine learning/程序员的修养/未命名.md",
     "machine learning/程序员的修养/程序员的自我修养  1.pdf",
     "kafka/Kafka权威指南.pdf",
     "machine learning/程序员的修养",
-    "machine learning/操作系统/OS.md",
     "kafka",
     "machine learning/操作系统/Untitled 1.base",
     "machine learning/操作系统/Untitled.base",
