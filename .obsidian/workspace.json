@@ -13,14 +13,14 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "machine learning/操作系统/操作系统真象还原 (郑纲).pdf",
-                "page": 322,
-                "left": -4,
-                "top": 738,
-                "zoom": 1.6508400724796595
+                "file": "kafka/Kafka权威指南.pdf",
+                "page": 92,
+                "left": -10,
+                "top": 733,
+                "zoom": 1.4301470588235294
               },
               "icon": "lucide-file-text",
-              "title": "操作系统真象还原 (郑纲)"
+              "title": "Kafka权威指南"
             }
           },
           {
@@ -203,8 +203,8 @@
   },
   "active": "3ad0fe101f564cca",
   "lastOpenFiles": [
-    "machine learning/操作系统/OS.md",
     "machine learning/操作系统/操作系统真象还原 (郑纲).pdf",
+    "machine learning/操作系统/OS.md",
     "2025-12-24.md",
     "Untitled.base",
     "machine learning/程序员的修养/程序员的自我修养 .pdf",
