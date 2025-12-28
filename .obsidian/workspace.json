@@ -11,16 +11,14 @@
             "id": "3ad0fe101f564cca",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "kafka/Kafka权威指南.pdf",
-                "page": 93,
-                "left": -15,
-                "top": 608,
-                "zoom": 1.0625
+                "file": "machine learning/Docker.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Kafka权威指南"
+              "icon": "lucide-file",
+              "title": "Docker"
             }
           },
           {
@@ -182,8 +180,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 201.5,
-    "collapsed": true
+    "width": 201.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,14 +199,15 @@
   },
   "active": "3ad0fe101f564cca",
   "lastOpenFiles": [
+    "2025-12-24.md",
+    "machine learning/Docker.md",
+    "kafka/Kafka权威指南.pdf",
     "machine learning/操作系统/操作系统真象还原 (郑纲).pdf",
     "machine learning/操作系统/OS.md",
-    "2025-12-24.md",
     "Untitled.base",
     "machine learning/程序员的修养/程序员的自我修养 .pdf",
     "machine learning/程序员的修养/未命名.md",
     "machine learning/程序员的修养/程序员的自我修养  1.pdf",
-    "kafka/Kafka权威指南.pdf",
     "machine learning/程序员的修养",
     "kafka",
     "machine learning/操作系统/Untitled 1.base",
