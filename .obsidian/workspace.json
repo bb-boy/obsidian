@@ -14,10 +14,10 @@
               "type": "pdf",
               "state": {
                 "file": "kafka/Kafka权威指南.pdf",
-                "page": 92,
-                "left": -10,
-                "top": 733,
-                "zoom": 1.4301470588235294
+                "page": 93,
+                "left": -15,
+                "top": 608,
+                "zoom": 1.0625
               },
               "icon": "lucide-file-text",
               "title": "Kafka权威指南"
@@ -94,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "8c78a30993349fc3",
